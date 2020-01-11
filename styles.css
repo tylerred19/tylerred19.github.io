@@ -3,6 +3,7 @@ body {
     background-color: #171717;
     color: red;
     margin: 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .container {
@@ -11,7 +12,6 @@ body {
 }
 
 .brand {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-style: italic;
 }
 
@@ -60,6 +60,11 @@ body {
     color: red !important;
 }
 
+.no-link {
+    color: red;
+    text-decoration: none;
+}
+
 /* Portfolio styles */
 
 .content-wrapper {
@@ -78,17 +83,56 @@ body {
     flex-wrap: wrap;
 }
 
-.box {
-    display: flex;
+/* position: relative => gives more flexibility toward the big background for the content inside */
+/* position: absolute => gives certain position toward the content inside */
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
     width: 375px;
     height: 250px;
-    justify-content: center;
-    align-items: center;
-    /* border: 5px solid #8a8a8a; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 5px;
 }
 
-.no-link {
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img {
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+/* img text effect */
+
+.img-text-wrapper .subtitle a {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle a {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 600;
     color: red;
-    text-decoration: none;
+}
+
+/* Blur images */
+
+.img-blur {
+  transition: 1s;
+  filter: brightness(25%);
 }
