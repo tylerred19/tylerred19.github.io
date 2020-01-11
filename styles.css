@@ -130,9 +130,18 @@ body {
     color: red;
 }
 
-/* Blur images */
+/* Blur Images */
 
 .img-blur {
   transition: 1s;
   filter: brightness(25%);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+
+.portfolio-items-wrapper {
+    flex-direction: column;
+}
+
 }
