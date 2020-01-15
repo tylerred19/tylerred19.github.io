@@ -185,7 +185,7 @@ a {
 
 @media screen and (max-width: 500px) {
   .box {
-    width: 175px;
-    height: 175px;
+    width: 300px;
+    height: 300px;
   }
 }
