@@ -145,3 +145,47 @@ body {
     }
 
 }
+
+/* About Page */
+.about-content {
+    color: white;
+}
+
+about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    border: 5px solid #8a8a8a;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #8a8a8a;
+    margin: 30px;
+    font-size: 25px;
+}
+
+a {
+    color: #25284d;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+    width: 175px;
+    height: 175px;
+  }
+}
