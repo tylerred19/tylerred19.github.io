@@ -1,7 +1,7 @@
 /* Master styles */
 body {
     background-color: #171717;
-    color: red;
+    color: #f2e096;
     margin: 0px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -53,15 +53,15 @@ body {
 }
 
 .active-nav-link {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #f2e096;
 }
 
 .active-nav-link a {
-    color: red !important;
+    color: #f2e096 !important;
 }
 
 .no-link {
-    color: red;
+    color: #f2e096;
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ body {
 .img-text-wrapper:hover .subtitle a {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: 600;
-    color: red;
+    color: #f2e096;
 }
 
 /* Blur Images */
@@ -147,11 +147,15 @@ body {
 }
 
 /* About Page */
-.about-content {
-    color: white;
+.title {
+    text-align: center;
+    color: #f2e096;
 }
 
-about-wrapper {
+.about-content {
+}
+
+.about-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -169,8 +173,8 @@ about-wrapper {
 
 .box {
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     border: 5px solid #8a8a8a;
