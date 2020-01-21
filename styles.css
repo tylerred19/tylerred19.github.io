@@ -146,6 +146,15 @@ body {
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .fc-box {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
 /* About Page */
 .title {
     text-align: center;
