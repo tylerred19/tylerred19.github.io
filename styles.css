@@ -148,9 +148,19 @@ body {
 
 @media screen and (max-width: 500px) {
 
+    .box {
+        width: 300px;
+        height: 200px;
+    }
+
+    .portfolio-img-background {
+        width: 300px;
+        height: 200px;
+    }
+
     .fc-box {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
 }
@@ -189,19 +199,6 @@ body {
 a {
     color: #25284d;
     text-decoration: none;
-}
-
-@media screen and (max-width: 500px) {
-  .box {
-    width: 300px;
-    height: 200px;
-  }
-
-  .portfolio-img-background {
-    width: 300px;
-    height: 200px;
-    }
-
 }
 
 /* Fav-Colors */
