@@ -152,9 +152,6 @@ body {
     color: #f2e096;
 }
 
-.about-content {
-}
-
 .about-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -192,8 +189,41 @@ a {
   }
 
   .portfolio-img-background {
-    width: 350px;
-    height: 234px;
+    width: 300px;
+    height: 200px;
     }
 
+}
+
+/* Fav-Colors */
+
+
+.fc-title {
+    text-align: center;
+}
+
+.fc-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fc-profile-items-wrapper {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fc-box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #f2e096;
+    margin: 15px;
 }
