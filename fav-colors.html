@@ -11,30 +11,33 @@
 <body>
 
     <div class="container">
-            <div class="nav-wrapper">
-                <div class="left-side">
-                    <div class="nav-link-wrapper">
-                        <a href="https://tylerred19.github.io">HOME</a>
-                    </div>
+        <div class="nav-wrapper">
+            <div class="left-side">
 
-                    <div class="nav-link-wrapper">
-                        <a href="about.html">ABOUT</a>
-                    </div>
-
-                    <div class="nav-link-wrapper active-nav-link">
-                        <a href="fav-colors.html">FAV-COLORS</a>
-                    </div>
-
+                <div class="nav-link-wrapper">
+                    <span style="cursor:pointer" onclick="openNav()"><|||></span>
                 </div>
 
-                <div class="right-side">
-                    <div class="brand">
-                        <a class="no-link" href="">Tyler Tran</a>
-                    </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="https://tylerred19.github.io">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="fav-colors.html">FAV-COLORS</a>
+                    <a href="#">CONTACT</a>
                 </div>
+
+                <div class="active-nav-link">ABOUT</div>
 
             </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <a class="no-link" href="">Tyler Tran</a>
+                </div>
+            </div>
+
         </div>
+    </div>
 
 <h1 class="fc-title">Favorite Colors :)</h1>
 
@@ -83,4 +86,15 @@
     <p style="text-align: center; color: white;">Source: <a href="https://gardener-isabel-68100.netlify.com" style="color: #f2e096;">https://gardener-isabel-68100.netlify.com</a></p>
 
 </body>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
 </html>
