@@ -238,6 +238,7 @@ body {
     font-size: 25px;
     -webkit-transition: width 0.5s, height 0.5s; /* Safari */
     transition: width 0.5s, height 0.5s;
+    border-radius: 15px;
 }
 
 .box:hover {
