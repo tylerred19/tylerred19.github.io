@@ -298,3 +298,10 @@ a {
 .education-page p {
     color: white;
 }
+
+/* Something Fun Page */
+
+.sf-button {
+    background-color: grey;
+    border-radius: 10px;
+}
