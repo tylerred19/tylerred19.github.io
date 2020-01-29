@@ -121,7 +121,6 @@ body {
 .portfolio-items-wrapper {
     display: flex;
     padding: 25px;
-    /* border: 5px solid #8a8a8a; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -140,6 +139,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .img-text-wrapper {
