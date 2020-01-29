@@ -279,8 +279,8 @@ a {
     height: 150px;
     justify-content: center;
     align-items: center;
-    border: 3px solid #f2e096;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .fc-box:hover {
