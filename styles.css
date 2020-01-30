@@ -128,12 +128,12 @@ body {
 }
 
 .portfolio-img-background {
-    width: 500px;
-    height: 333px;
+    width: 540px;
+    height: 360px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
 }
 
@@ -146,8 +146,8 @@ body {
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 125px;
-    padding-right: 125px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .logo-wrapper img {
