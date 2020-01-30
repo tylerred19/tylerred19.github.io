@@ -104,11 +104,6 @@ body {
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
 /* Portfolio styles */
 
 .content-wrapper {
@@ -133,8 +128,8 @@ body {
 }
 
 .portfolio-img-background {
-    width: 375px;
-    height: 250px;
+    width: 500px;
+    height: 333px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,8 +146,8 @@ body {
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 
 .logo-wrapper img {
@@ -184,16 +179,12 @@ body {
 /* Responsive */
 
 @media screen and (max-width: 768px) {
-
     .portfolio-items-wrapper {
         flex-direction: column;
-
     }
-
 }
 
 @media screen and (max-width: 500px) {
-
     .box {
         width: 300px;
         height: 200px;
@@ -204,7 +195,15 @@ body {
         height: 200px;
     }
 
+    .img-text-wrapper {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
 
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 /* About Page */
