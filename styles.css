@@ -306,3 +306,8 @@ a {
     background-color: black;
     border-radius: 10px solid white;
 }
+
+.fun-wrapper {
+    display: block;
+    text-align: center;
+}
