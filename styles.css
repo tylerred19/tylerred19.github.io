@@ -311,3 +311,7 @@ a {
     display: block;
     text-align: center;
 }
+
+.fun-wrapper img {
+    height: 400px;
+}
