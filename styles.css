@@ -301,6 +301,8 @@ a {
 /* Something Fun Page */
 
 .sf-button {
-    background-color: grey;
-    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px solid white;
 }
