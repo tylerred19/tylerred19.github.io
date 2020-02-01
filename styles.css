@@ -292,6 +292,8 @@ a {
 
 .education-page {
     margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .education-page p {
