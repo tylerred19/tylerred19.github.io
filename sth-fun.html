@@ -37,11 +37,18 @@
     </div>
 
     <h1 style="margin-left: 30px;">Will Be Done Soon :)</h1>
-    <button class="sf-button" onclick="document.getElementById('myImage').src='images/bulb-on.jpg'">TURN ON THE LIGHT</button>
 
-        <img id="myImage" src="images/bulb-off.jpg" style="width:20%">
+    <div class="fun-wrapper">
+        <div>
+            <img id="myImage" src="images/bulb-off.jpg" style="width:20%">
+        </div>
 
-    <button class="sf-button" onclick="document.getElementById('myImage').src='images/bulb-off.jpg'">TURN OFF THE LIGHT</button>
+        <div class="fun-button-wrapper">
+            <button class="sf-button" onclick="document.getElementById('myImage').src='images/bulb-on.jpg'">TURN ON THE LIGHT</button>
+
+            <button class="sf-button" onclick="document.getElementById('myImage').src='images/bulb-off.jpg'">TURN OFF THE LIGHT</button>
+        </div>
+    </div>
 
     <script>
     function w3_open() {
