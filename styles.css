@@ -133,8 +133,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 10px;
+    margin: 15px;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px #505050;
 }
 
 .img-text-wrapper {
