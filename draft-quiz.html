@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="https://tylerred19.github.io" style="margin-left: 30px; font-size: 20px; color: #f2e096;">Press here to return to Home Page</a>
+</body>
+<script>
+    alert("Welcome to Tyler's quiz, please answer by typing either a, b, c, or d. Enjoy!");
+    var questions = [
+        {
+            prompt: "Which is the coding language that Tyler enjoys the most?\n(a) Java\n(b) Python\n(c) CSS\n(d) JavaScript",
+            answer: "b"
+        },
+        {
+            prompt: "What is Tyler's Hogwarts house?\n(a) Gryffindor\n(b) Ravenclaw\n(c) Slytherin\n(d) Hufflepuff",
+            answer: "b"
+        },
+        {
+            prompt: "What is Tyler's most favorite TV show?\n(a) Stranger Things\n(b) Breaking Bad\n(c) Riverdale\n(d) The Flash",
+            answer: "b"
+        },
+        {
+            prompt: "What is Tyler's MBTI type?\n(a) INFP\n(b) ISFP\n(c) INTJ\n(d) Chameleon",
+            answer: "d"
+        },
+        {
+            prompt: "What girls think about Tyler?\n(a) Reclusive and weird dude \n(b) Such a jerk..\n(c) A cool guy who has a cute smile\n(d) Genius in code",
+            answer: "a"
+        },
+        {
+            prompt: "What is Tyler's favorite college major?\n(a) Psychology\n(b) Computer Science\n(c) Human Computer Interaction\n(d) Neither",
+            answer: "c"
+        },
+        {
+            prompt: "Tyler's main goal is to be?\n(a) User Experience Engineer\n(b) Software Developer\n(c) Sleeping as much as he can\n(d) Psychologist",
+            answer: "c"
+        },
+        {
+            prompt: "What is Tyler's most favorite music genre?\n(a) K-Pop\n(b) Acoustic\n(c) Pop Punk\n(d) EDM",
+            answer: "c"
+        },
+        {
+            prompt: "Which one Tyler prefers?\n(a) Coding\n(b) Design\n(c) Neither\n(d) Both",
+            answer: "d"
+        },
+        {
+            prompt: "What is Tyler's most favorite activity?\n(a) Sleeping\n(b) Coding\n(c) Going to beaches\n(d) Basketball",
+            answer: "a"
+        },
+        {
+            prompt: "UC San Diego is most known for?\n(a) Academic\n(b) Computer Science\n(c) La Jolla Beach\n(d) Social Anxiety (lol jk)",
+            answer: "a"
+        },
+        {
+            prompt: "What is Tyler's most favorite basketball player?\n(a) LeBron James\n(b) Stephen Curry\n(c) Kevin Durant\n(d) Kyrie Irving",
+            answer: "b"
+        },
+        {
+            prompt: "Does Tyler have a girlfriend now?\n(a) Yes\n(b) No\n(c) Dating with codes\n(d) Does not give a @$#%",
+            answer: "c"
+        },
+        {
+            prompt: "What it is like to be an introvert?\n(a) Overwhelmed by people\n(b) People have no idea about what he or she actually thinks\n(c) Raining, Sleeping, and Chill\n(d) All of the answers above",
+            answer: "d"
+        },
+        {
+            prompt: "What was Tyler's intended major at the beginning of his first quarter at UCSD?\n(a) Human Computer Interaction\n(b) Computer Science\n(c) Data Science\n(d) Statistics",
+            answer: "c"
+        }
+    ];
+
+    var score = 0;
+
+    for (var i = 0; i < questions.length; i++) {
+        var response = window.prompt(questions[i].prompt);
+        if(response == questions[i].answer) {
+            score++;
+            alert("Correct!");
+        } else {
+            alert("Incorrect.. " + questions[i].answer + " is the correct answer!");
+        }
+    }
+    alert("You got " + score + "/" + questions.length + ". Refresh the page to restart the quiz.");
+</script>
+</html>
