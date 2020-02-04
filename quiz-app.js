@@ -85,9 +85,8 @@ function showProgress() {
 }
 
 function showScores() {
-    var gameOverHtml = "<h1>Result</h1>";
-    gameOverHtml += "<h2 id='score'> Your scores: " + quiz.score + "/" + quiz.questions.length + "</h2>";
-    gameOverHtml += "<a href='https://tylerred19.github.io' style='color: white;'>Home</a><br></br>";
+    var gameOverHtml = "<h2>Result</h2>";
+    gameOverHtml += "<h3 id='score'> Your scores: " + quiz.score + "/" + quiz.questions.length + "</h3>";
     gameOverHtml += "<a href='quiz-app.html' style='color: white;'>Restart</a>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
@@ -95,13 +94,13 @@ function showScores() {
 
 var questions = [
     new Question("Which is the coding language that Tyler enjoys the most?", ["Python", "Java", "JavaScript", "CSS"], "Python"),
+    new Question("What is it like to be an introvert?", ["Being overwhelmed by people", "People have no idea about what he or she actually thinks", "Raining, Sleeping, and Chill", "All of the answers above"], "All of the answers above"),
     new Question("What is Tylers most favorite TV show?", ["Stranger Things", "The Big Bang Theory", "Breaking Bad", "The Flash"], "Breaking Bad"),
     new Question("What girls think about Tyler?", ["Genius in code", "Cool guy who has a cute smile", "Nice guy but too innocent", "Reclusive and weird dude"], "Reclusive and weird dude"),
     new Question("What is Tyler's Hogwarts house?", ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"], "Ravenclaw"),
     new Question("What is Tyler's MBTI type?", ["INTJ", "ISFP", "INFP", "Chameleon"], "Chameleon"),
     new Question("University of California San Diego is most known for?", ["Academic", "Socially dead", "Medicine/Pre-Med school", "STEM school"], "Socially dead"),
     new Question("Does Tyler have a girlfriend now?", ["Yes", "No", "Dating with codes", "Does not give a @$#%"], "Dating with codes"),
-    new Question("What is it like to be an introvert?", ["Being overwhelmed by people", "People have no idea about what he or she actually thinks", "Raining, Sleeping, and Chill", "All of the answers above"], "All of the answers above"),
     new Question("What was Tyler's intended major at the beginning of his first quarter at UCSD?", ["Computer Science", "Human Computer Interaction", "Data Science", "Probability and Statistics"], "Data Science"),
     new Question("Which one Tyler prefers?", ["Coding", "Design", "Neither", "Both"], "Both"),
 ];
