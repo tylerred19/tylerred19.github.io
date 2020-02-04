@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="quiz-style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+
+                <div class="nav-link-wrapper">
+                    <span style="cursor:pointer;" onclick="openNav()"><|||></span>
+                </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="https://tylerred19.github.io">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="education.html">EDUCATION</a>
+                    <a href="fav-colors.html">FAV-COLORS</a>
+                    <a href="quiz-app.html">QUIZ APP</a>
+                    <a href="sth-fun.html">SOMETHING FUN</a>
+                </div>
+
+                <div class="active-nav-link">QUIZ-APP</div>
+
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <a class="no-link" href="">Tyler Tran</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <div class="grid">
         <div id="quiz">
-            <h1>Welcome to Tyler's Quiz</h1>
-            <hr style="margin-bottom: 20px">
+            <h2 style="text-align: center">Welcome to Tyler's Quiz</h2>
+            <hr style="margin-bottom: 10px">
 
             <p id="question"></p>
 
@@ -21,10 +54,9 @@
                 <button id="btn3"><span id="choice3"></span></button>
             </div>
 
-            <hr style="margin-top: 20px">
+            <hr style="margin-top: 10px">
             <footer>
                 <p id="progress">Question x of y.</p>
-                <p>Home: <a href="https://tylerred19.github.io" style="color: white;">https://tylerred19.github.io</a></p>
                 <p>Credit: <a href="https://www.youtube.com/watch?v=jvk1pFNqXaw&t=1621s" style="color: white;" target="_blank">https://www.youtube.com/watch?v=49pYIMygIcU</a></p>
             </footer>
         </div>
@@ -32,4 +64,13 @@
     </div>
 </body>
 <script src="quiz-app.js"></script>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </html>
