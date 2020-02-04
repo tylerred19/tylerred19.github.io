@@ -7,13 +7,17 @@ body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+.brand {
+    font-style: italic;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.brand {
-    font-style: italic;
+.left-side {
+    display: flex;
 }
 
 .nav-wrapper {
@@ -22,11 +26,16 @@ body {
     padding: 38px;
 }
 
-.left-side {
-    display: flex;
+/* Nav styles */
+
+.active-nav-link {
+    border-bottom: 1px solid #f2e096;
+    color: white;
 }
 
-/* Nav styles */
+.active-nav-link a {
+    color: #f2e096 !important;
+}
 
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
@@ -52,15 +61,6 @@ body {
 
 .nav-link-wrapper a:hover {
     color: white;
-}
-
-.active-nav-link {
-    border-bottom: 1px solid #f2e096;
-    color: white;
-}
-
-.active-nav-link a {
-    color: #f2e096 !important;
 }
 
 .no-link {
@@ -113,6 +113,24 @@ body {
     align-items: center;
 }
 
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.logo-wrapper img {
+    width: 35%;
+    margin-bottom: 20px;
+}
+
 .portfolio-items-wrapper {
     display: flex;
     padding: 25px;
@@ -138,24 +156,6 @@ body {
     box-shadow: 5px 5px 10px #505050;
 }
 
-.img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-.logo-wrapper img {
-    width: 35%;
-    margin-bottom: 20px;
-}
-
 /* img text effect */
 
 .img-text-wrapper .subtitle a {
@@ -179,9 +179,9 @@ body {
 
 /* About Page */
 
-.title {
-    text-align: center;
-    color: #f2e096;
+a {
+    color: #25284d;
+    text-decoration: none;
 }
 
 .about-wrapper {
@@ -217,9 +217,9 @@ body {
     height: 275px;
 }
 
-a {
-    color: #25284d;
-    text-decoration: none;
+.title {
+    text-align: center;
+    color: #f2e096;
 }
 
 /* Fav-Colors */
@@ -273,13 +273,6 @@ a {
 
 /* Something Fun Page */
 
-.sf-button {
-    padding: 10px;
-    color: white;
-    background-color: black;
-    border-radius: 10px solid white;
-}
-
 .fun-wrapper {
     display: block;
     text-align: center;
@@ -288,6 +281,13 @@ a {
 .fun-wrapper img {
     height: 375px;
     width: 250px;
+}
+
+.sf-button {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px solid white;
 }
 
 /* Responsive */
