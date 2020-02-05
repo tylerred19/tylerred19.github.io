@@ -180,7 +180,7 @@ body {
 /* About Page */
 
 a {
-    color: #25284d;
+    color: #f2e096;
     text-decoration: none;
 }
 
@@ -200,16 +200,19 @@ a {
 }
 
 .box {
-    display: flex;
-    width: 300px;
-    height: 300px;
-    justify-content: center;
     align-items: center;
-    margin: 30px;
+    background-color: #181818;
+    display: flex;
     font-size: 25px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    margin: 30px;
+
     -webkit-transition: width 0.5s, height 0.5s; /* Safari */
     transition: width 0.5s, height 0.5s;
     border-radius: 15px;
+    box-shadow: 7px 7px 10px black, -7px -7px 10px #383838;
 }
 
 .box:hover {
