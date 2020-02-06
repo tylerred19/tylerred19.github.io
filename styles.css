@@ -286,10 +286,12 @@ a {
 }
 
 .sf-button {
-    padding: 10px;
+    border: none;
     color: white;
-    background-color: black;
-    border-radius: 10px solid white;
+    background-color: #151515;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px black, -7px -7px 10px #383838;
+    padding: 10px;
 }
 
 /* Responsive */
