@@ -49,7 +49,7 @@ body h1 {
 /* Responsive */
 @media screen and (max-width: 550px) {
     .grid {
-        width: 250px;
+        width: 275px;
     }
 
     .buttons {
