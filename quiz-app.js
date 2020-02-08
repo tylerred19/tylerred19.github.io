@@ -98,11 +98,16 @@ var questions = [
     new Question("University of California San Diego is most known for?", ["Academic", "Socially dead", "Medicine/Pre-Med school", "STEM school"], "Socially dead"),
     new Question("What is Tylers most favorite TV show?", ["Stranger Things", "The Big Bang Theory", "Breaking Bad", "The Flash"], "Breaking Bad"),
     new Question("What girls think about Tyler?", ["Genius in code", "Cool guy who has a cute smile", "Nice guy but too innocent", "Reclusive and weird dude"], "Reclusive and weird dude"),
+    new Question("Which one Tyler prefers?", ["Coding", "Design", "Neither", "Somewhere in between"], "Somewhere in between"),
+    new Question("What question Tyler hates the most?", ["'When will you graduate?'", "'Do you have a girlfriend?'", "'Why you don't talk much?'", "'When will you get married?'"], "'When will you get married?'"),
     new Question("The COGS (Cognitive Science) class that Tyler enjoys the most is?", ["Sensation and Perception", "Introduction to Computing", "Learning, Memory, and Attention", "Interaction Design"], "Learning, Memory, and Attention"),
     new Question("What is Tyler's Hogwarts house?", ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"], "Ravenclaw"),
     new Question("How many girls has Tyler dated in the U.S.?", ["0", "1", "2", "more than 2"], "0"),
     new Question("What was Tyler's intended major at the beginning of his first quarter at UCSD?", ["Computer Science", "Human Computer Interaction", "Data Science", "Probability and Statistics"], "Data Science"),
-    new Question("Which one Tyler prefers?", ["Coding", "Design", "Neither", "Somewhere in between"], "Somewhere in between"),
+    new Question("Which college is Tyler in now?", ["Warren", "Revelle", "Muir", "Sixth"], "Warren"),
+    new Question("What was the first university that Tyler was actually intended to apply for transferring?", ["UC San Diego", "San Diego State", "Cal State San Marcos", "UC Irvine"], "San Diego State"),
+    new Question("Then, which major that Tyler was actually intended to apply for the university?", ["Computer Science", "Electrical Engineering", "Mechanical Engineering", "Psychology"], "Mechanical Engineering"),
+    new Question("Which place that Tyler wants to live in the future?", ["Bay Area", "San Diego", "Vietnam", "Oregon"], "Oregon")
 ];
 
 //Create object
