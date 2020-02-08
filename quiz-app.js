@@ -94,15 +94,15 @@ function showScores() {
 
 var questions = [
     new Question("Which is the coding language that Tyler enjoys the most?", ["Python", "Java", "JavaScript", "CSS"], "Python"),
-    new Question("What is it like to be an introvert?", ["Being overwhelmed by people", "People have no idea about what he or she actually thinks", "Raining, Sleeping, and Chill", "All of the answers above"], "All of the answers above"),
+    new Question("Does Tyler have a girlfriend now?", ["Yes", "No", "Dating with codes", "Does not give a @$#%"], "Dating with codes"),
+    new Question("University of California San Diego is most known for?", ["Academic", "Socially dead", "Medicine/Pre-Med school", "STEM school"], "Socially dead"),
     new Question("What is Tylers most favorite TV show?", ["Stranger Things", "The Big Bang Theory", "Breaking Bad", "The Flash"], "Breaking Bad"),
     new Question("What girls think about Tyler?", ["Genius in code", "Cool guy who has a cute smile", "Nice guy but too innocent", "Reclusive and weird dude"], "Reclusive and weird dude"),
+    new Question("The COGS (Cognitive Science) class that Tyler enjoys the most is?", ["Sensation and Perception", "Introduction to Computing", "Learning, Memory, and Attention", "Interaction Design"], "Learning, Memory, and Attention"),
     new Question("What is Tyler's Hogwarts house?", ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"], "Ravenclaw"),
-    new Question("What is Tyler's MBTI type?", ["INTJ", "ISFP", "INFP", "Chameleon"], "Chameleon"),
-    new Question("University of California San Diego is most known for?", ["Academic", "Socially dead", "Medicine/Pre-Med school", "STEM school"], "Socially dead"),
-    new Question("Does Tyler have a girlfriend now?", ["Yes", "No", "Dating with codes", "Does not give a @$#%"], "Dating with codes"),
+    new Question("How many girls has Tyler dated in the U.S.?", ["0", "1", "2", "more than 2"], "0"),
     new Question("What was Tyler's intended major at the beginning of his first quarter at UCSD?", ["Computer Science", "Human Computer Interaction", "Data Science", "Probability and Statistics"], "Data Science"),
-    new Question("Which one Tyler prefers?", ["Coding", "Design", "Neither", "Both"], "Both"),
+    new Question("Which one Tyler prefers?", ["Coding", "Design", "Neither", "Somewhere in between"], "Somewhere in between"),
 ];
 
 //Create object
