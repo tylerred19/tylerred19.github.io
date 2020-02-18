@@ -1,8 +1,8 @@
 /* Body */
 
 body {
-    background-color: #D6DEEB;
-    color: #3D3D3D;
+    background-color: #181818;
+    color: #9DA6F5;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -23,7 +23,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #181818;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -33,13 +33,13 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 18px;
-    color: #818181;
+    color: #555555;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #525BAC;
+    color: #9DA6F5;
 }
 
 .sidenav .closebtn {
@@ -78,7 +78,7 @@ body {
     height: 400px;
     border-radius: 200px;
     margin-top: 50px;
-    box-shadow: 8px 8px 8px #3D3D3D, -8px -8px 8px #FFFFFF;
+    box-shadow: 8px 8px 8px #000000, -8px -8px 8px #383838;
 }
 
 .tyler-tran {
@@ -96,7 +96,6 @@ body {
 /* Buttons */
 
 .buttons {
-    align-items: center;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2, auto);
@@ -104,18 +103,22 @@ body {
 }
 
 .button {
+    margin: auto;
     font-size: 20px;
     width: 150px;
     border: none;
-    color: white;
-    background-color: #4744BC;
     border-radius: 50px;
-    box-shadow: 7px 7px 10px #3D3D3D, -7px -7px 10px #FFFFFF;
     padding: 10px;
+    background-color: #181818;
+    color: #555555;
+    box-shadow: 7px 7px 10px #000000, -7px -7px 10px #383838;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button:hover {
-    background-color: #151515;
+    background-color: black;
+    color: #9DA6F5;
 }
 
 /* Responsive */
