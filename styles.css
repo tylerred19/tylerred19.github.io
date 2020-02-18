@@ -139,3 +139,24 @@ body {
         grid-row-end: 2;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .tyler-suit {
+        width: 275px;
+        height: 275px;
+    }
+    .tyler-tran {
+        width: 275px;
+        height: 126px;
+    }
+    .ux-style {
+        font-size: 15px;
+    }
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+    .button {
+        font-size: 15px;
+        width: 255px;
+    }
+}
