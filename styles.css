@@ -2,7 +2,7 @@
 
 body {
     background-color: #181818;
-    color: #9DA6F5;
+    color: white;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -57,6 +57,12 @@ body {
     margin-top: 25px;
 }
 
+.menu-nav {
+    color: #9DA6F5;
+    cursor: pointer;
+    font-size: 25px;
+}
+
 /* Photos Wrapper */
 
 .photos-wrapper {
@@ -89,6 +95,7 @@ body {
 /* UX Style */
 
 .ux-style {
+    color: #9DA6F5;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
 }
@@ -121,7 +128,7 @@ body {
     color: #9DA6F5;
 }
 
-/* Responsive */
+/* Index Responsive */
 @media screen and (max-width: 1100px) {
     .content-wrapper {
         line-height: 3.5;
@@ -158,5 +165,31 @@ body {
     .button {
         font-size: 15px;
         width: 255px;
+    }
+}
+
+/* About Page */
+.two-columns-wrapper {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-me {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-pic {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* About Responsive */
+
+@media screen and (max-width: 1100px) {
+    .two-columns-wrapper {
+        grid-template-columns: 1fr;
     }
 }
