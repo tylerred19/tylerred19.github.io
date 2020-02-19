@@ -3,162 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyler's Site</title>
-    <link rel="stylesheet" href="old-styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
 
     <div class="container">
         <div class="nav-wrapper">
-            <div class="left-side">
-
-                <div class="nav-link-wrapper">
-                    <span style="cursor:pointer" onclick="openNav()"><|||></span>
-                </div>
-
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="https://tylerred19.github.io">HOME</a>
-                    <a href="about.html">ABOUT</a>
-                    <a href="education.html">EDUCATION</a>
-                    <a href="fav-colors.html">FAV-COLORS</a>
-                    <a href="quiz-app.html">QUIZ APP</a>
-                    <a href="sth-fun.html">SOMETHING FUN</a>
-                    <a href="new-home.html">NEW-HOME</a>
-                </div>
-
-                <div class="active-nav-link">HOME</div>
-
+            <div class="nav-link-wrapper">
+                <span class="menu-nav" onclick="openNav()">&#9776;</span>
             </div>
-
-            <div class="right-side">
-                <div class="brand">
-                    <a class="no-link" href="">Tyler Tran</a>
-                </div>
-            </div>
-
-        </div>
-
-        <h2 style="text-align: center">Note: My website is currently in update. So, there would be several unexpected changes. Apologies for the inconvenience and thank you again for visiting this website.</h2>
-
-        <div class="content-wrapper">
-            <div class="portfolio-items-wrapper">
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style="background-image:url(images/image01.jpeg)"></div>
-
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src="images/logo/tylerlogo.png">
-                        </div>
-
-                        <div class="subtitle">
-                            <a href="https://unsplash.com/photos/ePJUCF48vgo" target="_blank">playstation</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style="background-image:url(images/image02.jpeg)"></div>
-
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src="images/logo/tylerlogo.png">
-                        </div>
-
-                        <div class="subtitle">
-                            <a href="https://unsplash.com/photos/SYTO3xs06fU" target="_blank">computer</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style="background-image:url(images/image04.jpeg)"></div>
-
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src="images/logo/tylerlogo.png">
-                        </div>
-
-                        <div class="subtitle">
-                            <a href="https://unsplash.com/photos/OqtafYT5kTw" target="_blank">coding</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style="background-image:url(images/image05.jpeg)"></div>
-
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src="images/logo/tylerlogo.png">
-                        </div>
-
-                        <div class="subtitle">
-                            <a href="https://unsplash.com/photos/7FegsRJ4aKQ" target="_blank">beach</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style="background-image:url(images/image06.jpeg)"></div>
-
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src="images/logo/tylerlogo.png">
-                        </div>
-
-                        <div class="subtitle">
-                            <a href="https://unsplash.com/photos/6VhPY27jdps" target="_blank">coffee</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style="background-image:url(images/image09.jpeg)"></div>
-
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src="images/logo/tylerlogo.png">
-                        </div>
-
-                        <div class="subtitle">
-                            <a href="https://unsplash.com/photos/57rD2oDZquc" target="_blank">basketball</a>
-                        </div>
-                    </div>
-                </div>
-
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="https://tylerred19.github.io">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="resume.pdf">RESUME</a>
             </div>
         </div>
     </div>
 
-    <div style="text-align: center">
-        <a href="https://unsplash.com">Credit: Unsplash. Information about specific pictures with specific photographers can be found by mousing over the picture(s) and click the letter inside it.</a>
-    </div>
+    <h1 style="margin-left: 30px">Coming Soon..</h1>
 
 </body>
-
-<script>
-    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
-
-    portfolioItems.forEach(portfolioItem => {
-        portfolioItem.addEventListener('mouseover', () => {
-            console.log(portfolioItem.childNodes[1].classList);
-            portfolioItem.childNodes[1].classList.add('img-blur');
-        })
-
-        portfolioItem.addEventListener('mouseout', () => {
-            console.log(portfolioItem.childNodes[1].classList);
-            portfolioItem.childNodes[1].classList.remove('img-blur');
-        })
-    })
-
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
-
 </html>
