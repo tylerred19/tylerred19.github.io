@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="nav-link-wrapper">
+                <span class="menu-nav" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="https://tylerred19.github.io">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="resume.pdf">RESUME</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="title">Personal Photography</h1>
+
+    <div class="content-wrapper">
+        <div class="portfolio-items-wrapper">
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/torrey-pines.jpg)"></div>
+                <div class="img-text-wrapper">Torrey Pines, CA</div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/saigon.jpg)"></div>
+                <div class="img-text-wrapper">Saigon, Vietnam</div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/phan-thiet.jpg)"></div>
+                <div class="img-text-wrapper">Phan Thiet, Vietnam</div>
+            </div>
+
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/geisel-library.jpg)"></div>
+                <div class="img-text-wrapper">Geisel Library</div>
+            </div>
+
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/la-jolla.jpg)"></div>
+                <div class="img-text-wrapper">La Jolla, CA</div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/buu-long.jpg)"></div>
+                <div class="img-text-wrapper">Buu Long, Vietnam</div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/solana.jpg)"></div>
+                <div class="img-text-wrapper">Solana Beach, CA</div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/breakfast-cruise.jpg)"></div>
+                <div class="img-text-wrapper">Breakfast</div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/la-jolla-cove.jpg)"></div>
+                <div class="img-text-wrapper">La Jolla Cove, CA</div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/downtown-sd.jpg)"></div>
+                <div class="img-text-wrapper">Downtown San Diego</div>
+            </div>
+
+        </div>
+    </div>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem.childNodes[1].classList);
+            portfolioItem.childNodes[1].classList.add('img-blur');
+    })
+
+    portfolioItem.addEventListener('mouseout', () => {
+        console.log(portfolioItem.childNodes[1].classList);
+        portfolioItem.childNodes[1].classList.remove('img-blur');
+    })
+})
+</script>
+</body>
+</html>
