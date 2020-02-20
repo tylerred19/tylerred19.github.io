@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <script src="scripts.js"></script>
@@ -26,11 +27,51 @@
         </div>
     </div>
 
-    <div style="margin-left: 30px">
-        <h1>Will be done soon..</h1>
-        <h3><a href="fav-colors.html">Favorite Colors</a></h3>
-        <h3><a href="quiz-app.html">Quiz App</a></h3>
-    </div>
+    <div class="content-wrapper">
+        <div class="portfolio-items-wrapper">
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/torrey-pines.jpg)"></div>
+                <div class="img-text-wrapper">
+                    <a href="fav-colors.html">Fav-Colors</a>
+                </div>
+            </div>
 
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/torrey-pines.jpg)"></div>
+                <div class="img-text-wrapper">
+                    <a href="photography.html">Photography</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/torrey-pines.jpg)"></div>
+                <div class="img-text-wrapper">
+                    <a href="quiz-app.html">Quiz App</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/torrey-pines.jpg)"></div>
+                <div class="img-text-wrapper">
+                    <a href="">UI Design (coming soon)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem.childNodes[1].classList);
+            portfolioItem.childNodes[1].classList.add('img-blur');
+    })
+
+    portfolioItem.addEventListener('mouseout', () => {
+        console.log(portfolioItem.childNodes[1].classList);
+        portfolioItem.childNodes[1].classList.remove('img-blur');
+    })
+})
+</script>
 </body>
 </html>
