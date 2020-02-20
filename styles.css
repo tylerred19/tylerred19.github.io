@@ -7,6 +7,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Title in general */
+
+.title {
+    text-align: center;
+    color: #F2E096;
+}
+
+/* Links in general */
+.some-link {
+    color: #F2E096;
+    text-decoration: none;
+}
+
 /* Container */
 
 .container {
@@ -183,7 +196,7 @@ body {
 .about-pic {
     width: 600px;
     height: 400px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 /* About Responsive */
@@ -193,3 +206,44 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .about-pic {
+        width: 255px;
+        height: 170px;
+    }
+}
+
+/* Fav-Colors */
+
+.fc-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fc-profile-items-wrapper {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fc-box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.fc-box:hover {
+    box-shadow: 0px 10px 50px blue;
+}
+
+/* Portfolio */
