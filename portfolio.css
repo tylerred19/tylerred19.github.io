@@ -45,6 +45,19 @@
 
 /* img text effect */
 
+.img-text-wrapper {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+    text-decoration: none;
+}
+
+.img-text-wrapper:hover {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 600;
+    color: #f2e096;
+}
+
 .img-text-wrapper a {
     transition: 1s;
     font-weight: 600;
@@ -74,7 +87,7 @@
     }
 
     .img-text-wrapper {
-        font-size: 15px;
+        font-size: 12px;
         padding-left: 125px;
         padding-right: 125px;
     }
