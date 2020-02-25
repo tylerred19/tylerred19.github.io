@@ -2,9 +2,10 @@
 
 body {
     background-color: #181818;
+    background-image: linear-gradient(to right, black, #9DA6F5);
     color: white;
-    margin: 0px;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 /* Title in general */
@@ -97,7 +98,7 @@ body {
     height: 400px;
     border-radius: 200px;
     margin-top: 50px;
-    box-shadow: 7px 7px 7px #000000, -7px -7px 7px #383838;
+    box-shadow: 8px -0 10px #3D3D3D, -8px 0 10px white;
 }
 
 .tyler-tran {
