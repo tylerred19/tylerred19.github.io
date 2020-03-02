@@ -2,7 +2,6 @@
 
 body {
     background-color: #181818;
-    background-image: linear-gradient(to right, black, #9DA6F5);
     color: white;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -163,8 +162,9 @@ body {
 
 @media screen and (max-width: 600px) {
     .tyler-suit {
-        width: 275px;
-        height: 275px;
+        margin-top: 25px;
+        width: 240px;
+        height: 240px;
     }
     .tyler-tran {
         width: 275px;
