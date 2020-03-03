@@ -1,100 +1,76 @@
-/* Portfolio */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
 
-.content-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="nav-link-wrapper">
+                <span class="menu-nav" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="https://tylerred19.github.io">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="resume.pdf">RESUME</a>
+            </div>
+        </div>
+    </div>
 
-.img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 240px;
-    padding-right: 240px;
-}
+    <div class="content-wrapper">
+        <div class="portfolio-items-wrapper">
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/fav-colors.jpg)"></div>
+                <div class="img-text-wrapper">
+                    <a href="fav-colors.html">Fav-Colors</a>
+                </div>
+            </div>
 
-.portfolio-items-wrapper {
-    display: flex;
-    padding: 25px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/torrey-pines.jpg)"></div>
+                <div class="img-text-wrapper">
+                    <a href="photography.html">Photography</a>
+                </div>
+            </div>
 
-.portfolio-item-wrapper {
-    position: relative;
-}
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(images/quiz-app.jpg)"></div>
+                <div class="img-text-wrapper">
+                    <a href="quiz-app.html">Quiz App</a>
+                </div>
+            </div>
 
-.portfolio-img-background {
-    width: 540px;
-    height: 360px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 15px;
-    border-radius: 10px;
-    box-shadow: inset 5px 5px 5px #000000, inset -5px -5px 5px #383838;
-}
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url()"></div>
+                <div class="img-text-wrapper">
+                    <a href="">UI Design (coming soon)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
 
-/* img text effect */
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem.childNodes[1].classList);
+            portfolioItem.childNodes[1].classList.add('img-blur');
+    })
 
-.img-text-wrapper {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
-    text-decoration: none;
-}
-
-.img-text-wrapper:hover {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-weight: 600;
-    color: #f2e096;
-}
-
-.img-text-wrapper a {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
-    text-decoration: none;
-}
-
-.img-text-wrapper:hover a {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-weight: 600;
-    color: #f2e096;
-}
-
-/* Blur Images */
-
-.img-blur {
-  transition: 1s;
-  filter: brightness(25%);
-}
-
-/* Portfolio Responsive */
-
-@media screen and (max-width: 800px) {
-    .portfolio-img-background {
-        width: 300px;
-        height: 200px;
-    }
-
-    .img-text-wrapper {
-        font-size: 12px;
-        padding-left: 125px;
-        padding-right: 125px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .portfolio-items-wrapper {
-        flex-direction: column;
-    }
-}
+    portfolioItem.addEventListener('mouseout', () => {
+        console.log(portfolioItem.childNodes[1].classList);
+        portfolioItem.childNodes[1].classList.remove('img-blur');
+    })
+})
+</script>
+</body>
+</html>
