@@ -97,7 +97,7 @@ body {
     height: 400px;
     border-radius: 200px;
     margin-top: 50px;
-    box-shadow: 8px 0px 10px black, -8px 0px 10px #9DA6F5;
+    box-shadow: 8px 0px 10px #9DA6F5, -8px 0px 10px #9DA6F5;
 }
 
 .tyler-tran {
