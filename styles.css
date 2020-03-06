@@ -159,6 +159,24 @@ body {
     }
 }
 
+@media screen and (min-width: 1500px) {
+    .content-wrapper {
+        line-height: 3.5;
+    }
+    .photos-wrapper {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }
+    .photo-wrapper-1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .photo-wrapper-2 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .tyler-suit {
         margin-top: 25px;
@@ -168,14 +186,18 @@ body {
     .tyler-tran {
         width: 275px;
         height: 126px;
+        margin-top: -12px;
     }
     .ux-style {
         font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .buttons {
         grid-template-columns: 1fr;
     }
     .button {
+        margin-bottom: -5px;
         font-size: 15px;
         width: 255px;
     }
