@@ -97,6 +97,11 @@ body {
     height: 400px;
     border-radius: 200px;
     margin-top: 50px;
+    box-shadow: 8px 0px 10px #707070, -8px 0px 10px #707070;
+    transition: 0.5s;
+}
+
+.tyler-suit:hover {
     box-shadow: 8px 0px 10px #9DA6F5, -8px 0px 10px #FF4646;
 }
 
