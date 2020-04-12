@@ -139,7 +139,7 @@ body {
     color: #707070;
     text-decoration: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
     position: relative;
     overflow: hidden;
 }
@@ -152,8 +152,7 @@ body {
     height: 0;
     background-color: #EEEEEE;
     z-index: -1;
-    transition: 0.5s;
-    top: 0;
+    transition: 1s;
 }
 
 .button:hover {  
@@ -162,6 +161,14 @@ body {
 
 .button:hover::before {
     height: 180%;
+}
+
+.button-down::before {
+    top: 0;
+}
+
+.button-up::before {
+    bottom: 0;
 }
 
 
