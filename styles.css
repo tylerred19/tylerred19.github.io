@@ -200,19 +200,19 @@ body {
     .tyler-tran {
         width: 275px;
         height: 126px;
-        margin-top: -12px;
+        margin-top: -19px;
     }
     .ux-style {
         font-size: 19px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        /* margin-top: 0; */
+        margin-bottom: 4px;
     }
     .buttons {
         grid-template-columns: 1fr;
     }
     .button {
-        margin-bottom: -5px;
-        font-size: 15px;
+        margin-bottom: -2px;
+        font-size: 19px;
         width: 255px;
     }
 }
