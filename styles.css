@@ -97,7 +97,7 @@ body {
 /* Pictures */
 
 .tyler-suit {
-    display: flex;
+    display: none;
     width: 400px;
     height: 400px;
     border-radius: 200px;
@@ -209,11 +209,9 @@ body {
     .tyler-tran {
         width: 275px;
         height: 126px;
-        margin-top: -25px;
     }
     .ux-style {
         font-size: 19px;
-        /* margin-top: 0; */
         margin-bottom: 4px;
     }
     .buttons {
