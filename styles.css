@@ -186,6 +186,7 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
+        background-image: url("images/011.jpg");
         background-position: center;
     }
 
