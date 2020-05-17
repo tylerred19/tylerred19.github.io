@@ -1,11 +1,7 @@
 /* Body */
 
 body {
-    background-image: url("images/006.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #181818;
+    background-color: #020F24;
     color: #EEEEEE;
     font-family: 'Lato', sans-serif;
     margin: 0px;
@@ -40,7 +36,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #181818;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -56,7 +52,7 @@ body {
 }
 
 .sidenav a:hover {
-    color: #F2E096;
+    color: #EEEEEE;
 }
 
 .sidenav .closebtn {
@@ -80,7 +76,11 @@ body {
     font-size: 25px;
 }
 
-/* Photos Wrapper */
+/* Content Wrapper */
+
+.index-intro {
+    margin-left: 25px;
+}
 
 .content-wrapper {
     line-height: 3.5;
@@ -185,11 +185,6 @@ body {
 /* Index Responsive */
 
 @media screen and (max-width: 600px) {
-    body {
-        background-image: url("images/011.jpg");
-        background-position: center;
-    }
-
     .photo-wrapper-1 {
         grid-row-start: 2;
         grid-row-end: 3;
