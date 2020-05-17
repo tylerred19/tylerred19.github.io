@@ -1,8 +1,8 @@
 /* Body */
 
 body {
-    background-color: #020F24;
-    color: #EEEEEE;
+    background-color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }
@@ -11,12 +11,11 @@ body {
 
 .title {
     text-align: center;
-    color: #F2E096;
 }
 
 /* Links in general */
 .some-link {
-    color: #F2E096;
+    color: black;
     text-decoration: none;
 }
 
@@ -71,7 +70,7 @@ body {
 }
 
 .menu-nav {
-    color: #EEEEEE;
+    color: black;
     cursor: pointer;
     font-size: 25px;
 }
@@ -286,5 +285,5 @@ body {
 }
 
 .fc-box:hover {
-    box-shadow: 0px 10px 50px blue;
+    box-shadow: 0px 10px 50px black;
 }
