@@ -87,7 +87,7 @@ function showProgress() {
 function showScores() {
     var gameOverHtml = "<h2>Result</h2>";
     gameOverHtml += "<h3 id='score'> Your scores: " + quiz.score + "/" + quiz.questions.length + "</h3>";
-    gameOverHtml += "<a href='quiz-app.html' style='color: white;'>Restart</a>";
+    gameOverHtml += "<a href='quiz-app.html' style='color: black;'>Restart</a>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 }
