@@ -80,7 +80,7 @@
 
 /* Portfolio Responsive */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .portfolio-img-background {
         width: 300px;
         height: 200px;
@@ -91,10 +91,10 @@
         padding-left: 125px;
         padding-right: 125px;
     }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .portfolio-items-wrapper {
         flex-direction: column;
     }
-}
+} */
