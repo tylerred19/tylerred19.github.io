@@ -6,8 +6,6 @@
     font-size: 10vw;
 }
 
-
-
 img {
     text-align: center;
     max-width: 90%;
@@ -39,4 +37,52 @@ img {
     .new-columns {
         grid-template-columns: repeat(1, auto);
     }
+}
+
+/* Buttons */
+
+.btnn-width {
+    background-color: black;
+    background: none;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.btnn-width::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: black;
+    z-index: -1;
+    transition: 1s;
+}
+
+/* Free style */
+
+.btnn1:hover a {
+    color: white;
+}
+
+.btnn2:hover a {
+    color: black;
+}
+
+.btnn1::before {
+    right: 0;
+}
+.btnn1:hover::before {
+    width: 52%;
+}
+
+.btnn2::before {
+    right: 0;
+    width: 100%;
+}
+.btnn2:hover::before {
+    width: 55%;
 }
