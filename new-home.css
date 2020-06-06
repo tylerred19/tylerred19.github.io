@@ -33,12 +33,6 @@ img {
     color: white;
 }
 
-@media screen and (max-width: 800px) {
-    .new-columns {
-        grid-template-columns: repeat(1, auto);
-    }
-}
-
 /* Buttons */
 
 .btnn-width {
@@ -85,4 +79,18 @@ img {
 }
 .btnn2:hover::before {
     width: 55%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+    .new-columns {
+        grid-template-columns: repeat(1, auto);
+    }
+    .btnn1:hover::before {
+        width: 100%;
+    }
+    .btnn2:hover::before {
+        width: 0;
+    }
 }
