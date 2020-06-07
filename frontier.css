@@ -15,10 +15,13 @@ img {
     margin: auto;
     width: 80%;
     padding: 10px;
-  }
+}
 
 @media screen and (max-width: 870px) {
     .frontier-wrapper {
         grid-template-columns: 1fr;
+    }
+    .design-slides {
+        display: none;
     }
 }
