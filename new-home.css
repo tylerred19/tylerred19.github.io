@@ -87,6 +87,9 @@ img {
     .new-columns {
         grid-template-columns: repeat(1, auto);
     }
+    .btnn1::before {
+        left: 0;
+    }
     .btnn1:hover::before {
         width: 100%;
     }
