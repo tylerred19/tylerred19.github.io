@@ -1,7 +1,6 @@
 /* Body */
 
 body {
-    background-color: white;
     color: black;
     font-family: 'Lato', sans-serif;
     margin: 0px;
@@ -247,8 +246,14 @@ img {
 
 /* About Responsive */
 
-/* @media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
     .two-columns-wrapper {
         grid-template-columns: 1fr;
     }
-} */
+    .about-me {
+        font-size: 3vw;
+    }
+    .about-pic {
+        width: 90vw;
+    }
+}
