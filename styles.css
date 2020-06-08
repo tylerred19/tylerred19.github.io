@@ -77,15 +77,21 @@ body {
 
 /* About Page */
 
+.two-columns-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
 .about-me {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1.5vw;
 }
 
 .about-pic {
-    display: none;
-    width: 600px;
-    height: 400px;
+    /* display: none; */
+    width: 40vw;
+    height: auto;
     border-radius: 15px;
     margin-top: 30px;
 }
@@ -219,7 +225,7 @@ img {
     font-size: 3vw;
 }
 
-/* Responsive */
+/* Index Responsive */
 
 @media screen and (max-width: 800px) {
     .new-columns {
@@ -238,3 +244,11 @@ img {
         font-size: 5vw;
     }
 }
+
+/* About Responsive */
+
+/* @media screen and (max-width: 1100px) {
+    .two-columns-wrapper {
+        grid-template-columns: 1fr;
+    }
+} */
