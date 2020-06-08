@@ -17,6 +17,15 @@ img {
     padding: 10px;
 }
 
+.frontier-content {
+    margin-left: 5vw;
+}
+
+.frontier-content a {
+    background-color: black;
+    color: white;
+}
+
 @media screen and (max-width: 870px) {
     .frontier-wrapper {
         grid-template-columns: 1fr;
