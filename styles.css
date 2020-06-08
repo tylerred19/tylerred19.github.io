@@ -212,6 +212,13 @@ img {
     width: 55%;
 }
 
+/* Index Intro */
+
+.index-intro {
+    margin-left: 5vw;
+    font-size: 3vw;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 800px) {
@@ -227,11 +234,7 @@ img {
     .btnn2:hover::before {
         width: 0;
     }
-}
-
-/* Index Intro */
-
-.index-intro {
-    margin-left: 5vw;
-    font-size: 3vw;
+    .index-intro {
+        font-size: 5vw;
+    }
 }
