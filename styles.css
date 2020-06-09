@@ -3,7 +3,7 @@
 body {
     color: black;
     font-family: 'Lato', sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 
 /* Title in general */
@@ -72,7 +72,7 @@ body {
 .menu-nav {
     color: black;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 3vw;
 }
 
 /* About Page */
