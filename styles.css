@@ -79,7 +79,7 @@ body {
 
 .two-columns-wrapper {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .about-me {
@@ -90,7 +90,7 @@ body {
 
 .about-pic {
     /* display: none; */
-    width: 40vw;
+    width: 50vw;
     height: auto;
     border-radius: 15px;
     margin-top: 30px;
