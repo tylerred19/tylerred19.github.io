@@ -225,6 +225,13 @@ img {
     line-height: 80%
 }
 
+/* Index Footer */
+
+.index-footer {
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+
 /* Index Responsive */
 
 @media screen and (max-width: 800px) {
@@ -245,6 +252,9 @@ img {
     }
     .menu-nav {
         font-size: 6vw;
+    }
+    .index-footer {
+        font-size: 3vw;
     }
 }
 
