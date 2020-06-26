@@ -3,4 +3,12 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-  }
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 60vw;
+}
