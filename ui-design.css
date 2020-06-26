@@ -12,3 +12,8 @@ iframe {
   width: 90%;
   height: 60vw;
 }
+
+.ui-margin {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
