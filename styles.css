@@ -219,9 +219,22 @@ img {
 /* Index Intro */
 
 .index-intro {
-    font-size: 3vw;
-    line-height: 60%;
+    line-height: 80%;
     text-align: center;
+}
+
+.index-intro-1 {
+    font-weight: 900;
+    font-size: 10vw;
+}
+
+.index-intro-2 {
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+.index-intro-3 {
+    font-size: 2.5vw;
 }
 
 /* Index Footer */
@@ -246,8 +259,14 @@ img {
     .btnn2:hover::before {
         width: 0;
     }
-    .index-intro {
-        font-size: 5vw;
+    .index-intro-1 {
+        font-size: 15vw;
+    }
+    .index-intro-2 {
+        font-size: 7vw;
+    }
+    .index-intro-3 {
+        font-size: 4vw;
     }
     .menu-nav {
         font-size: 6vw;
