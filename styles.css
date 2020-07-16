@@ -140,7 +140,6 @@ body {
     width: 95%;
     /* border: 3px solid black; */
     padding: 5px;
-    /* font-size: 4vw; */
 }
 
 img {
@@ -220,9 +219,9 @@ img {
 /* Index Intro */
 
 .index-intro {
-    margin-left: 5vw;
     font-size: 3vw;
-    line-height: 80%
+    line-height: 60%;
+    text-align: center;
 }
 
 /* Index Footer */
