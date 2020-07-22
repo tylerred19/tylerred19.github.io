@@ -159,6 +159,7 @@ img {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    border-radius: 5px;
   }
 
 /* Index Responsive */
