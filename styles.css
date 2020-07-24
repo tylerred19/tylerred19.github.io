@@ -85,7 +85,7 @@ body {
 .about-me {
     margin-left: 2vw;
     margin-right: 2vw;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 .about-pic {
@@ -242,7 +242,7 @@ img {
 
 .index-footer {
     font-weight: bolder;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 /* Index Responsive */
