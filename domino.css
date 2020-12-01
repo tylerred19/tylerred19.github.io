@@ -1,0 +1,17 @@
+.persona-two-columns {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.persona-two-columns-2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.persona-pic {
+    /* display: none; */
+    width: 50vw;
+    height: auto;
+    /* border-radius: 15px;
+    margin-top: 30px; */
+}
