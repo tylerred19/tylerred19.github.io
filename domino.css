@@ -24,3 +24,47 @@ h2 {
     color: #DF1D3C;
     text-align: center;
 }
+
+/* Competitive Audit Table */
+
+table {
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+#domino-table tr:nth-child(even) {
+    background-color: #0C648F;
+    color: white;
+}
+
+#domino-table tr:nth-child(odd) {
+    background-color: #DF1D3C;
+    color: white;
+}
+
+#domino-table th {
+    background-color: white;
+    color: black;
+}
+
+.two-sketches {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .two-sketches {
+        grid-template-columns: 1fr;
+    }
+}
