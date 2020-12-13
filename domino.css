@@ -63,9 +63,18 @@ th, td {
     grid-gap: 50px;
 }
 
+.domino-intro {
+    height: auto;
+    width: 50%;
+}
+
 /* Responsive */
 @media screen and (max-width: 900px) {
     .two-sketches {
         grid-template-columns: 1fr;
+    }
+
+    .domino-intro {
+        width: 70%;
     }
 }
