@@ -17,3 +17,11 @@ iframe {
   margin-left: 15%;
   margin-right: 15%;
 }
+
+.center-text-align {
+    text-align: center;
+}
+
+.some-margin {
+    margin-left: 3vw;
+}
