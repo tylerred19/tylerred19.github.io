@@ -249,10 +249,12 @@ img {
 }
 
 .three-columns {
+    margin-left: 5%;
+    margin-right: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    grid-gap: 50px;
+    grid-gap: 10px;
 }
 
 /* Index Responsive */
