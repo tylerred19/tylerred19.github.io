@@ -1,3 +1,5 @@
+/* Persona Sections */
+
 .persona-two-columns {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -15,6 +17,8 @@
     /* border-radius: 15px;
     margin-top: 30px; */
 }
+
+/* Title and Headers */
 
 h1 {
     color: #0C648F;
@@ -56,6 +60,8 @@ th, td {
     color: black;
 }
 
+/* Sketch Grid */
+
 .two-sketches {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -63,15 +69,21 @@ th, td {
     grid-gap: 50px;
 }
 
+/* Intro Image */
+
 .domino-intro {
     height: auto;
     width: 50%;
 }
 
+/* Domino Margin */
+
 .domino-margin {
     margin-left: 15vw;
     margin-right: 15vw;
 }
+
+/* Images */
 
 img {
     display: block;
@@ -89,6 +101,7 @@ img {
 } */
 
 /* Responsive */
+
 @media screen and (max-width: 900px) {
     .two-sketches {
         grid-template-columns: 1fr;
