@@ -1,3 +1,4 @@
+/* Images */
 img {
     display: block;
     margin-left: auto;
@@ -5,6 +6,7 @@ img {
     width: 80%;
 }
 
+/* Prototype Frame */
 iframe {
   display: block;
   margin-left: auto;
@@ -13,16 +15,12 @@ iframe {
   height: 60vw;
 }
 
-.ui-margin {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
+/* Center Text Align */
 .center-text-align {
     text-align: center;
 }
 
-.some-margin {
+.acm-content-margin {
     margin-left: 3vw;
 }
 

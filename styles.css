@@ -1,4 +1,4 @@
-/* Body */
+/* Body - Done */
 
 body {
     color: black;
@@ -6,27 +6,27 @@ body {
     margin: 0;
 }
 
-/* Title in general */
+/* Title in general - Done */
 
 .title {
     text-align: center;
 }
 
-/* Links in general */
+/* Links in general - Done */
 
 .some-link {
     color: black;
     text-decoration: none;
 }
 
-/* Container */
+/* Container - Done */
 
 .container {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-/* Side-Nav */
+/* Side-Nav - Done */
 
 .sidenav {
     height: 100%;
@@ -62,7 +62,7 @@ body {
     margin-left: 50px;
 }
 
-/* Nav */
+/* Nav - Done */
 
 .nav-link-wrapper {
     margin-left: 5vw;
