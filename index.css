@@ -1,0 +1,133 @@
+/* New Home */
+
+/* Index Wrapper */
+.new-wrapper {
+    margin: auto;
+    width: 95%;
+    /* border: 3px solid black; */
+    padding: 5px;
+}
+
+/* Index Img */
+img {
+    text-align: center;
+    max-width: 90%;
+    margin: 2%;
+    height: auto;
+    width: auto;
+}
+
+/* Index Columns */
+.new-columns {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.new-columns a {
+    color: black;
+}
+
+.reverse-columns {
+    background-color: black;
+    color: white;
+}
+
+.reverse-columns a {
+    color: white;
+}
+
+/* Index-Wrapper */
+.btnn-width {
+    background-color: black;
+    background: none;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.btnn-width::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: black;
+    z-index: -1;
+    transition: 1s;
+}
+
+/* Index Free Style */
+.btnn1:hover a {
+    color: white;
+}
+
+.btnn2:hover a {
+    color: black;
+}
+
+.btnn1::before {
+    right: 0;
+}
+.btnn1:hover::before {
+    width: 52%;
+}
+
+.btnn2::before {
+    right: 0;
+    width: 100%;
+}
+.btnn2:hover::before {
+    width: 54%;
+}
+
+/* Index Intro */
+
+.index-intro {
+    line-height: 80%;
+    text-align: center;
+}
+
+.index-intro-1 {
+    font-weight: 900;
+    font-size: 10vw;
+}
+
+.index-intro-2 {
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+.index-intro-3 {
+    font-size: 2.5vw;
+}
+
+/* Index Responsive */
+
+@media screen and (max-width: 800px) {
+    .new-columns {
+        grid-template-columns: repeat(1, auto);
+    }
+    .btnn1::before {
+        left: 0;
+    }
+    .btnn1:hover::before {
+        width: 100%;
+    }
+    .btnn2:hover::before {
+        width: 0;
+    }
+    .index-intro-1 {
+        font-size: 15vw;
+    }
+    .index-intro-2 {
+        font-size: 7vw;
+    }
+    .index-intro-3 {
+        font-size: 4vw;
+    }
+    .menu-nav {
+        font-size: 6vw;
+    }
+}

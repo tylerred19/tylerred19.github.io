@@ -1,5 +1,4 @@
 /* Body - Done */
-
 body {
     color: black;
     font-family: 'Open Sans', sans-serif;
@@ -7,27 +6,23 @@ body {
 }
 
 /* Title in general - Done */
-
 .title {
     text-align: center;
 }
 
 /* Links in general - Done */
-
 .some-link {
     color: black;
     text-decoration: none;
 }
 
 /* Container - Done */
-
 .container {
     display: grid;
     grid-template-columns: 1fr;
 }
 
 /* Side-Nav - Done */
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -63,7 +58,6 @@ body {
 }
 
 /* Nav - Done */
-
 .nav-link-wrapper {
     margin-left: 5vw;
     margin-top: 2vw;
@@ -76,7 +70,6 @@ body {
 }
 
 /* About Page */
-
 .two-columns-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -102,7 +95,6 @@ body {
 }
 
 /* Fav-Colors */
-
 .fc-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -133,8 +125,7 @@ body {
     box-shadow: 0px 10px 50px black;
 }
 
-/* New Home */
-
+/* New Wrapper - Done */
 .new-wrapper {
     margin: auto;
     width: 95%;
@@ -142,6 +133,7 @@ body {
     padding: 5px;
 }
 
+/* Index Img - Done */
 img {
     text-align: center;
     max-width: 90%;
@@ -150,6 +142,7 @@ img {
     width: auto;
 }
 
+/* Index Columns - Done */
 .new-columns {
     margin: 1%;
     display: grid;
@@ -169,8 +162,7 @@ img {
     color: white;
 }
 
-/* Index-Wrapper */
-
+/* Index-Wrapper - Done */
 .btnn-width {
     background-color: black;
     background: none;
@@ -191,8 +183,7 @@ img {
     transition: 1s;
 }
 
-/* Free style */
-
+/* Free style - Done */
 .btnn1:hover a {
     color: white;
 }
@@ -216,7 +207,7 @@ img {
     width: 54%;
 }
 
-/* Index Intro */
+/* Index Intro - Done */
 
 .index-intro {
     line-height: 80%;
@@ -237,17 +228,18 @@ img {
     font-size: 2.5vw;
 }
 
-/* Index Footer */
-
+/* Index Footer - Done */
 .index-footer {
     font-weight: bolder;
     font-size: 20px;
 }
 
+/* Box Footer - Done */
 .box-footer:hover {
     box-shadow: 0px 5px 25px black;
 }
 
+/* Footer Three Columns - Done */
 .three-columns {
     margin-left: 5%;
     margin-right: 5%;
@@ -257,7 +249,7 @@ img {
     grid-gap: 10px;
 }
 
-/* Index Responsive */
+/* Index Responsive - Done */
 
 @media screen and (max-width: 800px) {
     .new-columns {
