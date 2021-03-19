@@ -42,6 +42,9 @@
         margin-left: 10vw;
         margin-right: 10vw;
     }
+    .about-me {
+        font-size: 15px;
+    }
     .about-pic {
         width: 100%;
         height: auto;
