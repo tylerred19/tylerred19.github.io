@@ -5,8 +5,8 @@
 }
 
 .about-margin {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 /* .about-me {
@@ -27,14 +27,22 @@
     justify-content: center;
 }
 
+/* About padding-center-style */
+.about-padding-center-1 {
+    padding: 30px 0;
+}
+
 /* About Responsive */
 @media screen and (max-width: 900px) {
     .two-columns-wrapper {
         grid-template-columns: 1fr;
     }
-    
+    .about-margin {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
     .about-pic {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: auto;
     }
 }
