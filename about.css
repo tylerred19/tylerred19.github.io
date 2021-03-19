@@ -1,0 +1,40 @@
+/* About Page */
+.two-columns-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-margin {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/* .about-me {
+    margin-left: 2vw;
+    margin-right: 2vw;
+} */
+
+.about-pic {
+    /* display: none; */
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.about-pic-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* About Responsive */
+@media screen and (max-width: 900px) {
+    .two-columns-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-pic {
+        width: 90%;
+        height: 90%;
+    }
+}

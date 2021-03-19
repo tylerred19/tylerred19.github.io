@@ -69,7 +69,7 @@ body {
     font-size: 3vw;
 }
 
-/* About Page */
+/* About Page - Done */
 .two-columns-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -278,8 +278,7 @@ img {
     }
 }
 
-/* About Responsive */
-
+/* About Responsive - Done */
 @media screen and (max-width: 900px) {
     .two-columns-wrapper {
         grid-template-columns: 1fr;

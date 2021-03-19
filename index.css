@@ -180,10 +180,13 @@ img {
     .btnn2:hover::before {
         width: 0;
     }
-    .menu-nav {
-        font-size: 6vw;
-    }
     .padding-center-style {
         padding: 0 0;
+    }
+    .index-intro-1 {
+        font-size: 25px;
+    }
+    .index-intro-2 {
+        font-size: 17px;
     }
 }
