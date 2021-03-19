@@ -38,8 +38,8 @@
         grid-template-columns: 1fr;
     }
     .about-margin {
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
     .about-pic {
         width: 100%;
