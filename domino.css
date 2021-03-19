@@ -1,5 +1,21 @@
-/* Persona Sections - Done */
+/* Intro Image */
+.domino-intro {
+    height: auto;
+    width: 50%;
+}
 
+/* Title and Headers */
+h1 {
+    color: #0C648F;
+}
+
+
+.domino-title {
+    color: #DF1D3C;
+    text-align: center;
+}
+
+/* Persona Sections */
 .persona-two-columns {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -12,25 +28,21 @@
 
 .persona-pic {
     /* display: none; */
-    width: 50vw;
+    width: 15vw;
     height: auto;
     /* border-radius: 15px;
     margin-top: 30px; */
 }
 
-/* Title and Headers - Done */
-
-h1 {
-    color: #0C648F;
+/* Domino Image - Temporary */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
-.domino-title {
-    color: #DF1D3C;
-    text-align: center;
-}
-
-/* Competitive Audit Table - Done */
-
+/* Competitive Audit Table */
 table {
     width:100%;
 }
@@ -60,8 +72,7 @@ th, td {
     color: black;
 }
 
-/* Sketch Grid - Done */
-
+/* Sketch Grid */
 .two-sketches {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -69,39 +80,7 @@ th, td {
     grid-gap: 50px;
 }
 
-/* Intro Image - Done */
-
-.domino-intro {
-    height: auto;
-    width: 50%;
-}
-
-/* Domino Margin - Done */
-
-.domino-margin {
-    margin-left: 15vw;
-    margin-right: 15vw;
-}
-
-/* Images - Done */
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-
-/* iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  height: 60vw;
-} */
-
-/* Responsive - Done */
-
+/* Domino Responsive */
 @media screen and (max-width: 900px) {
     .two-sketches {
         grid-template-columns: 1fr;

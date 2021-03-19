@@ -1,21 +1,5 @@
-/* Intro Image */
-.domino-intro {
-    height: auto;
-    width: 50%;
-}
+/* Persona Sections - Done */
 
-/* Title and Headers */
-h1 {
-    color: #0C648F;
-}
-
-
-.domino-title {
-    color: #DF1D3C;
-    text-align: center;
-}
-
-/* Persona Sections */
 .persona-two-columns {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -28,21 +12,25 @@ h1 {
 
 .persona-pic {
     /* display: none; */
-    width: 15vw;
+    width: 50vw;
     height: auto;
     /* border-radius: 15px;
     margin-top: 30px; */
 }
 
-/* Domino Image - Temporary */
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+/* Title and Headers - Done */
+
+h1 {
+    color: #0C648F;
 }
 
-/* Competitive Audit Table */
+.domino-title {
+    color: #DF1D3C;
+    text-align: center;
+}
+
+/* Competitive Audit Table - Done */
+
 table {
     width:100%;
 }
@@ -72,7 +60,8 @@ th, td {
     color: black;
 }
 
-/* Sketch Grid */
+/* Sketch Grid - Done */
+
 .two-sketches {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -80,7 +69,39 @@ th, td {
     grid-gap: 50px;
 }
 
-/* Domino Responsive */
+/* Intro Image - Done */
+
+.domino-intro {
+    height: auto;
+    width: 50%;
+}
+
+/* Domino Margin - Done */
+
+.domino-margin {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+/* Images - Done */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 60vw;
+} */
+
+/* Responsive - Done */
+
 @media screen and (max-width: 900px) {
     .two-sketches {
         grid-template-columns: 1fr;
