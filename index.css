@@ -139,7 +139,7 @@ img {
     width: 100%;
 }
 .btnn2:hover::before {
-    width: 54%;
+    width: 53%;
 }
 
 /* Index Intro */
@@ -163,7 +163,6 @@ img {
 }
 
 /* Index Responsive */
-
 @media screen and (max-width: 800px) {
     .new-columns {
         grid-template-columns: repeat(1, auto);
