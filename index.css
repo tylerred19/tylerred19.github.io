@@ -37,7 +37,40 @@ img {
     color: white;
 }
 
-/* Index-Wrapper */
+/* Index Padding Center Style */
+.padding-center-style {
+    padding: 70px 0;
+}
+
+/* Button */
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 32px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-2 {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px 32px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Index-Wrapper + Free Style */
 .btnn-width {
     background-color: black;
     background: none;
@@ -46,6 +79,13 @@ img {
     overflow: hidden;
 }
 
+.btnn-width-2 {
+    background-color: black;
+    background: none;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
 
 .btnn-width::before {
     content: "";
@@ -58,13 +98,33 @@ img {
     transition: 1s;
 }
 
-/* Index Free Style */
-.btnn1:hover a {
+.btnn-width-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: black;
+    z-index: -1;
+    transition: 1s;
+}
+
+.btnn1:hover {
     color: white;
 }
 
-.btnn2:hover a {
+.btnn2:hover {
     color: black;
+}
+
+.btnn1:hover button {
+    background-color: white;
+    color: black;
+}
+
+.btnn2:hover button {
+    background-color: black;
+    color: white;
 }
 
 .btnn1::before {
@@ -83,7 +143,6 @@ img {
 }
 
 /* Index Intro */
-
 .index-intro {
     line-height: 80%;
     text-align: center;
@@ -129,5 +188,8 @@ img {
     }
     .menu-nav {
         font-size: 6vw;
+    }
+    .padding-center-style {
+        padding: 0 0;
     }
 }
