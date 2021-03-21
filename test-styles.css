@@ -104,3 +104,11 @@ body {
 .footer-three-columns img {
     width: 88%;
 }
+
+/* General Responsive */
+@media screen and (max-width: 600px) {
+    .portfolio-margin {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
