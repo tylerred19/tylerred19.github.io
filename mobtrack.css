@@ -48,6 +48,15 @@ iframe {
     margin: 2%;
 }
 
+/* Heroku Link */
+.heroku-link {
+    color: black;
+    text-decoration: none;
+}
+.heroku-link:hover {
+    text-decoration: underline;
+}
+
 /* MobTrack Responsive */
 @media screen and (max-width: 900px) {
     .two-columns {
