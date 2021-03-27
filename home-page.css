@@ -157,6 +157,11 @@ img {
     font-size: 25px;
 }
 
+/* Reverse-P */
+.reverse-p {
+    width: 90%;
+}
+
 /* Index Responsive */
 @media screen and (max-width: 800px) {
     .new-columns {
@@ -188,5 +193,8 @@ img {
     }
     .index-intro-2 {
         font-size: 17px;
+    }
+    .reverse-p {
+        width: 100%;
     }
 }
