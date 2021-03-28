@@ -35,11 +35,20 @@ iframe {
 
 /* Research Stat Margins */
 .kumi-div-stat {
-    margin-top: -70px;
+    margin-top: -90px;
 }
 .kumi-p-stat {
     font-size: 80px;
     margin-bottom: -10px;
+}
+
+/* Kumi Link */
+.kumi-link {
+    color: black;
+    text-decoration: none;
+}
+.kumi-link:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
@@ -47,6 +56,6 @@ iframe {
         grid-template-columns: 1fr;
     }
     #kumi-div-top {
-        margin-bottom: -70px;
+        margin-bottom: -50px;
     }
 }
