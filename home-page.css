@@ -150,7 +150,7 @@ img {
 
 .index-intro-1 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .index-intro-2 {
@@ -188,12 +188,12 @@ img {
     .padding-center-style {
         padding: 0 0;
     }
-    .index-intro-1 {
+    /* .index-intro-1 {
         font-size: 25px;
     }
     .index-intro-2 {
         font-size: 17px;
-    }
+    } */
     .reverse-p {
         width: 100%;
     }
