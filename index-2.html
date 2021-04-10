@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Tran | Product Designer</title>
+    <link rel="stylesheet" href="test-styles-2.css">
+    <link rel="stylesheet" href="home-page-2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="nav-link-wrapper">
+                <span class="menu-nav" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="https://tylerred19.github.io">WORK</a>
+                <a href="about.html">ABOUT</a>
+                <a href="resume-tyler-tran.pdf">RESUME</a>
+                <a href="others.html">OTHERS</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="new-wrapper">
+        <div class="index-intro">
+            <h1 class="index-intro-1">Hello! I'm Tyler,</h1>
+            <p class="index-intro-2">a product designer who would like to bring some meaningful and fun interactions to users. :)</p>
+            <p>Note: The site is currently <b>in updating</b>, sorry for any inconvenience.</p>
+        </div>
+
+        <!-- Testing -->
+        <h1>Card Flip with Text</h1>
+        <h3>Hover over the image below:</h3>
+        
+        <!-- Card 1 - Kumi -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/kumi-login-after.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Online Learning</h1>
+                    <p class="reverse-p">Designing an online learning platform for lower-income middle and high schools.</p>
+                    <button onclick="document.location='kumi.html'" class="button">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 - Domino -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/domino-intro-team.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Domino's Pizza App Redesign</h1>
+                    <p>Redesign to improve the process of customers picking up their pizzas.</p>
+                    <button onclick="document.location='domino.html'" class="button">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 - MobTrack -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/mobtrack-intro.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>MobTrack</h1>
+                    <p>Designing and developing an application addressing the problem of not being able to reflect daily patterns.</p>
+                    <button onclick="document.location='mobtrack.html'" class="button">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 - ACM Vote -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="images/acm-vote.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>ACM Vote</h1>
+                    <p class="reverse-p">Designing a poll creator for ACM UC San Diego students.</p>
+                    <button onclick="document.location='acm-vote.html'" class="button-2">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tyler-footer">&copy; Designed and Developed by Tyler Tran</div>
+    </div>
+
+
+</body>
+</html>
