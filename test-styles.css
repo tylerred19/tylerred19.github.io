@@ -23,6 +23,32 @@ body {
     margin-top: 70px;
 }
 
+/* Nav Top Left & Right */
+.nav-link-wrapper {
+    float: left;
+    margin-top: -2px;
+    margin-left: 5vw;
+}
+.menu-nav {
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+}
+.top-right {
+    float: right;
+    font-size: 23px;
+    color: white;
+    margin-top: 8px;
+    margin-right: 4vw;
+}
+.top-right a {
+    text-decoration: none;
+    color: white;
+}
+.top-right:hover {
+    text-decoration: underline;
+}
+
 /* Side-Nav */
 .sidenav {
     height: 100%;
@@ -58,18 +84,6 @@ body {
     margin-left: 50px;
 }
 
-/* Nav */
-.nav-link-wrapper {
-    margin-left: 5vw;
-    /* margin-top: 2vw; */
-}
-
-.menu-nav {
-    cursor: pointer;
-    font-size: 40px;
-    color: white;
-}
-
 /* Title in general - Temporary */
 .title {
     text-align: center;
@@ -79,6 +93,10 @@ body {
 .some-link {
     color: black;
     text-decoration: none;
+}
+
+.some-link:hover {
+    text-decoration: underline;
 }
 
 /* Portfolio Margin */
