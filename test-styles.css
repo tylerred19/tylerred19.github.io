@@ -7,6 +7,22 @@ body {
     margin: 0;
 }
 
+/* Container */
+.container {
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+/* Nav Margin */
+.nav-margin {
+    margin-top: 70px;
+}
+
 /* Side-Nav */
 .sidenav {
     height: 100%;
@@ -45,13 +61,13 @@ body {
 /* Nav */
 .nav-link-wrapper {
     margin-left: 5vw;
-    margin-top: 2vw;
+    /* margin-top: 2vw; */
 }
 
 .menu-nav {
-    color: black;
     cursor: pointer;
     font-size: 40px;
+    color: white;
 }
 
 /* Title in general - Temporary */
@@ -63,12 +79,6 @@ body {
 .some-link {
     color: black;
     text-decoration: none;
-}
-
-/* Container */
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 /* Portfolio Margin */
@@ -95,7 +105,7 @@ body {
 /* Tyler Footer */
 .tyler-footer {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
 }
