@@ -28,18 +28,18 @@ img {
     color: black;
 }
 
-.reverse-columns {
+/* .reverse-columns {
     background-color: black;
     color: white;
 }
 
 .reverse-columns a {
     color: white;
-}
+} */
 
 /* Index Padding Center Style */
 .padding-center-style {
-    padding: 70px 0;
+    padding: 13%;
 }
 
 /* Button */
@@ -47,8 +47,8 @@ img {
     background-color: black;
     border: none;
     color: white;
-    font-size: 20px;
-    padding: 15px 32px;
+    font-size: 18px;
+    padding: 12px 30px;
     width: 250px;
     text-align: center;
     text-decoration: none;
@@ -57,7 +57,7 @@ img {
     border-radius: 5px;
 }
 
-.button-2 {
+/* .button-2 {
     background-color: white;
     border: none;
     font-size: 20px;
@@ -68,7 +68,7 @@ img {
     display: inline-block;
     cursor: pointer;
     border-radius: 5px;
-}
+} */
 
 /* Index-Wrapper + Free Style */
 .btnn-width {
@@ -79,13 +79,13 @@ img {
     overflow: hidden;
 }
 
-.btnn-width-2 {
+/* .btnn-width-2 {
     background-color: black;
     background: none;
     color: white;
     position: relative;
     overflow: hidden;
-}
+} */
 
 .btnn-width::before {
     content: "";
@@ -98,7 +98,7 @@ img {
     transition: 1s;
 }
 
-.btnn-width-2::before {
+/* .btnn-width-2::before {
     content: "";
     position: absolute;
     top: 0;
@@ -107,40 +107,40 @@ img {
     background: black;
     z-index: -1;
     transition: 1s;
-}
+} */
 
 .btnn1:hover {
     color: white;
 }
 
-.btnn2:hover {
+/* .btnn2:hover {
     color: black;
-}
+} */
 
 .btnn1:hover button {
     background-color: white;
     color: black;
 }
 
-.btnn2:hover button {
+/* .btnn2:hover button {
     background-color: black;
     color: white;
-}
+} */
 
 .btnn1::before {
     right: 0;
 }
 .btnn1:hover::before {
-    width: 52%;
+    width: 100%;
 }
 
-.btnn2::before {
+/* .btnn2::before {
     right: 0;
     width: 100%;
 }
 .btnn2:hover::before {
     width: 53%;
-}
+} */
 
 /* Index Intro */
 .index-intro {
@@ -158,24 +158,24 @@ img {
 }
 
 /* Reverse-P */
-.reverse-p {
+/* .reverse-p {
     width: 90%;
-}
+} */
 
 /* Index Responsive */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .new-columns {
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(2, auto);
     }
-    .another-column {
+    /* .another-column {
         grid-row-start: 1;
         grid-row-end: 2;
     }
     .image-column {
         grid-row-start: 0;
         grid-row-end: 1;
-    }
+    } */
     .btnn1::before {
         left: 0;
     }
@@ -188,13 +188,16 @@ img {
     .padding-center-style {
         padding: 0 0;
     }
+    .btnn1:hover::before {
+        width: 150%;
+    }
     /* .index-intro-1 {
         font-size: 25px;
     }
     .index-intro-2 {
         font-size: 17px;
     } */
-    .reverse-p {
+    /* .reverse-p {
         width: 100%;
-    }
+    } */
 }
