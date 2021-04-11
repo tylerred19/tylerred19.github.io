@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler Tran | Product Designer</title>
-    <!-- <link rel="stylesheet" href="test-styles.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="zz-old-nav-bar.css">
     <link rel="stylesheet" href="home-page.css">
-    <link rel="stylesheet" href="nav-bar.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
     <script src="scripts.js"></script>
 </head>
 <body>
 
-    <!-- New Nav Bar -->
     <div class="container">
         <div class="nav-wrapper">
-            <div class="topnav" id="myTopnav">
-                <div class="top-right"><a href="https://tylerred19.github.io"><b>Tyler Tran</b></a></div>
-                <!-- <a href="#home" class="active">Home</a> -->
-                <a href="about.html">About</a>
-                <a href="resume-tyler-tran.pdf">Resume</a>
-                <a href="others.html">Others</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <b><i class="fa fa-bars"></i></b>
-                </a>
+            <div class="nav-link-wrapper">
+                <span class="menu-nav" onclick="openNav()">&#9776;</span>
             </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="about.html">ABOUT</a>
+                <a href="resume-tyler-tran.pdf">RESUME</a>
+                <a href="others.html">OTHERS</a>
+            </div>
+            <div class="top-right"><a href="https://tylerred19.github.io"><b>Tyler Tran</b></a></div>
         </div>
     </div>
 
@@ -55,8 +52,25 @@
                 <button onclick="document.location='domino.html'" class="button">Read More</button>
             </div>
         </div>
+        <div class="new-columns btnn-width btnn1">
+            <img src="images/mobtrack-intro.png">
+            <div class="padding-center-style">
+                <h1>MobTrack</h1>
+                <p>Designing and developing an application addressing the problem of not being able to reflect daily patterns.</p>
+                <button onclick="document.location='mobtrack.html'" class="button">Read More</button>
+            </div>
+        </div>
+        <div class="new-columns btnn-width btnn1">
+            <img src="images/acm-vote.png">
+            <div class="padding-center-style">
+                <h1>ACM Vote</h1>
+                <p>Designing a poll creator for ACM UC San Diego students.</p>
+                <button onclick="document.location='acm-vote.html'" class="button">Read More</button>
+            </div>
+        </div>
         <div class="tyler-footer">&copy; Designed and Developed by Tyler Tran</div>
     </div>
+
 
 </body>
 </html>
