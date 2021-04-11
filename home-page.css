@@ -186,4 +186,7 @@ img {
     .btnn-width::before {
         background: linear-gradient(270deg, #6945D0 31.16%, #000000 100%);
     }
+    .button {
+        margin-bottom: 15px;
+    }
 }
