@@ -1,4 +1,8 @@
 /* About Page */
+h1 {
+    color: #4633B4;
+}
+
 .two-columns-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
