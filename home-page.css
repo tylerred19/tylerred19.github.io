@@ -189,4 +189,12 @@ img {
     .button {
         margin-bottom: 15px;
     }
+    .padding-center-style h1 {
+        margin-top: 0px;
+        margin-bottom: -5px;
+    }
+    .padding-center-style {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }
