@@ -1,14 +1,4 @@
-/* Side Nav */
-
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
-/* New Nav Bar */
+/* Old Nav Bar */
 
 function myFunction() {
     var x = document.getElementById("myTopnav");
