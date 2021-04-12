@@ -1,4 +1,4 @@
-/* Old Nav Bar */
+/* Nav Bar */
 
 function myFunction() {
     var x = document.getElementById("myTopnav");
