@@ -1,4 +1,18 @@
 /* Others Padding Center Style */
 .other-center-style {
-    padding: 8%;
+    padding: 13%;
+}
+
+@media screen and (max-width: 600px) {
+    .other-center-style {
+        padding: 0 0;
+    }
+    .other-center-style h1 {
+        margin-top: 0px;
+        margin-bottom: -5px;
+    }
+    .other-center-style {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }

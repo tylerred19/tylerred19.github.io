@@ -30,7 +30,7 @@ body {
     color: white;
     /* margin-top: 8px;
     margin-bottom: 8px; */
-    margin-right: 4vw;
+    /* margin-right: 4vw; */
 }
 .top-right a {
     text-decoration: none;
@@ -104,6 +104,7 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     margin-left: 4vw;
+    margin-right: 4vw;
 }
   
 .topnav a {
@@ -153,7 +154,7 @@ body {
     .topnav.responsive a {
         float: none;
         display: block;
-        text-align: right;
+        text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
     }
