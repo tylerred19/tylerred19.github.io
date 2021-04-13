@@ -142,13 +142,13 @@ img {
 
 /* Index Intro */
 .index-intro {
-    /* line-height: 80%; */
-    text-align: center;
+    /* text-align: center; */
+    margin: 2%;
 }
 
 .index-intro-1 {
     /* font-weight: 800; */
-    font-size: 60px;
+    font-size: 100px;
     margin-bottom: -15px;
     color: #4633B4;
 }
@@ -157,10 +157,10 @@ img {
     font-size: 25px;
 }
 
-/* Reverse-P */
-/* .reverse-p {
-    width: 90%;
-} */
+/* Footer for Index Page */
+.tyler-footer {
+    margin: 2%;
+}
 
 /* Index Responsive */
 @media screen and (max-width: 600px) {
