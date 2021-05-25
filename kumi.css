@@ -51,11 +51,19 @@ iframe {
     text-decoration: underline;
 }
 
+/* h1 spacing */
+h1 {
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 900px) {
     .kumi-two-columns {
         grid-template-columns: 1fr;
     }
     #kumi-div-top {
         margin-bottom: -50px;
+    }
+    #kumi-div-top-2 {
+        margin-bottom: -75px;
     }
 }
