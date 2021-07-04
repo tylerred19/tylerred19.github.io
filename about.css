@@ -3,6 +3,10 @@ h1 {
     color: #4633B4;
 }
 
+i:hover {
+    color: #D0BCFE;
+}
+
 .two-columns-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
