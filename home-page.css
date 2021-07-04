@@ -38,6 +38,16 @@ img {
     padding: 13%;
 }
 
+/* Home Link */
+.home-link {
+    color: white;
+    text-decoration: none;
+}
+.home-link:hover {
+    color: #D0BCFE;
+    text-decoration: underline;
+}
+
 /* Button */
 .button {
     background-color: black;
