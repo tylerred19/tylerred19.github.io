@@ -82,6 +82,16 @@ body {
     font-size: 18px;
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
+    text-align: center;
+}
+.tyler-contact-icons b {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.tyler-contact-icons-2 b {
+    font-size: 25px;
+    margin-right: 20px;
 }
 
 /* Footer Box Images */
