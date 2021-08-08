@@ -192,7 +192,7 @@ nav {
     width: 100%;
 }
 
-label.logo {
+label.logo a {
     color: white;
     font-size: 30px;
     line-height: 60px;
@@ -217,7 +217,7 @@ nav ul li a {
     padding: 7px 13px;
 }
 
-nav ul li a:hover, label.logo:hover {
+nav ul li a:hover, label.logo a:hover {
     text-decoration: underline;
     color: #D0BCFE;
 }
@@ -238,7 +238,7 @@ nav ul li a:hover, label.logo:hover {
 
 @media (max-width: 952px) {
 
-    label.logo {
+    label.logo a {
         padding-left: 40px;
     }
     /* nav ul li a {
