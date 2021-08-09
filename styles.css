@@ -147,7 +147,7 @@ nav ul li a:hover, label.logo a:hover {
     color: white;
     float: right;
     line-height: 60px;
-    margin-right: 40px;
+    margin-right: 5vw;
     cursor: pointer;
     display: none;
 }
@@ -159,7 +159,7 @@ nav ul li a:hover, label.logo a:hover {
 @media (max-width: 952px) {
 
     label.logo a {
-        padding-left: 45px;
+        padding-left: 5vw;
     }
     /* nav ul li a {
         font-size: 16px;
