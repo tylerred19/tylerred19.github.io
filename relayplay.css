@@ -84,12 +84,12 @@ h1 {
 }
 
 /* Domino Link */
-.domino-link {
-    color: #0E5784;
+.relayplay-link {
+    color: #3D59AB;
     text-decoration: none;
 }
-.domino-link:hover {
-    color: #DF1D3C;
+.relayplay-link:hover {
+    color: #FFB900;
     text-decoration: underline;
 }
 
