@@ -15,6 +15,15 @@ h1 {
     grid-template-columns: 3fr 2fr;
 }
 
+.persona-two-columns-alt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.persona-wrap {
+    margin: 10px;
+}
+
 .zz-persona-two-columns {
     display: grid;
     grid-template-columns: 3fr 1fr;
