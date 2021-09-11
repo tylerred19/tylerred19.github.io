@@ -47,50 +47,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
 }
 
-/* Competitive Audit Table */
-table {
-    width:100%;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 15px;
-    text-align: left;
-}
-
-#domino-table tr:nth-child(even) {
-    background-color: #0C648F;
-    color: white;
-}
-
-#domino-table tr:nth-child(odd) {
-    background-color: #DF1D3C;
-    color: white;
-}
-
-#domino-table th {
-    background-color: white;
-    color: black;
-}
+/* Domino Two Sketches */
 
 .two-sketches img {
     width: 70%;
 }
-
-/* Sketch Grid */
-/* .two-sketches {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    grid-gap: 50px;
-} */
 
 /* h1 spacing */
 h1 {
@@ -133,5 +97,8 @@ h1 {
     }
     .two-sketches img {
         width: 100%;
+    }
+    .persona-two-columns-alt {
+        grid-template-columns: 1fr;
     }
 }
