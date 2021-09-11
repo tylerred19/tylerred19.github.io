@@ -12,10 +12,15 @@ h1 {
 /* Persona Sections */
 .persona-two-columns {
     display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.zz-persona-two-columns {
+    display: grid;
     grid-template-columns: 3fr 1fr;
 }
 
-.persona-two-columns-2 {
+.zz-persona-two-columns-2 {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
@@ -103,7 +108,20 @@ h1 {
     /* .two-sketches {
         grid-template-columns: 1fr;
     } */
-
+    .persona-two-columns {
+        grid-template-columns: 1fr;
+    }
+    .persona-pic {
+        width: 60%;
+    }
+    .persona-pic-wrapper {
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .persona-content {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
     .two-sketches img {
         width: 100%;
     }
