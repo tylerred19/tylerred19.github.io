@@ -42,6 +42,16 @@ h1 {
     margin-top: 30px; */
 }
 
+/* Three Columns */
+.relayplay-three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.relayplay-three-columns img {
+    width: 75%;
+}
+
 /* Domino Image - Temporary */
 img {
     display: block;
