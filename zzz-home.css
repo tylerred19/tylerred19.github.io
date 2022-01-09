@@ -5,18 +5,26 @@
 }
 
 /* View Projects */
-.view-projects {
+.view-projects button {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 16px;
     font-weight: 600;
-    color: #303030;
+    background-color: white;
+    color: #444444;
 }
 
-.view-projects:hover {
-    color: #6945D0
+.view-projects button:hover {
+    color: #D0BCFE;
 }
+
+
 
 /* Projects Section */
-.projects-section {
-    background-color: red;
+.projects-section-filler {
+    background-color: white;
+    color: white;
 }
 
 /* Index Img */
@@ -82,9 +90,8 @@ img {
 /* Index Intro */
 .index-intro {
     text-align: center;
-    margin-top: -55px;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 65px;
+    padding-bottom: 95px;
     padding-left: 35%;
     padding-right: 35%;
 }
