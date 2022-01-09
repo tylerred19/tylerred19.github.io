@@ -6,11 +6,10 @@
 
 /* Intro Background */
 .intro-background {
-    background-image: url("images/photography/026.jpg");
-    padding-top: 65px;
+    background-image: url("images/test-bg.png");
+    background-size: cover;
+    padding-top: 95px;
     padding-bottom: 95px;
-    /* padding-left: 35%;
-    padding-right: 35%; */
 }
 
 
@@ -61,42 +60,6 @@ img {
     text-decoration: underline;
 }
 
-/* Index-Wrapper + Free Style */
-.btnn-width {
-    background-color: black;
-    background: none;
-    color: black;
-    position: relative;
-    overflow: hidden;
-}
-
-.btnn-width::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 0;
-    background: linear-gradient(90deg, #6945D0 31.84%, #000000 100%);
-    z-index: -1;
-    transition: 1s;
-}
-
-.btnn1:hover {
-    color: white;
-}
-
-.btnn1:hover button {
-    background-color: white;
-    color: black;
-}
-
-.btnn1::before {
-    right: 0;
-}
-.btnn1:hover::before {
-    width: 100%;
-}
-
 /* Index Intro */
 .index-intro {
     display: block;
@@ -107,18 +70,21 @@ img {
     width: 50%;
     padding-top: 10px;
     padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 30px 30px 30px 30px;
 }
 
 .index-intro-1 {
     /* font-weight: 800; */
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: -15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .index-intro-2 {
-    font-size: 25px;
-    font-family: 'Righteous', cursive;
+    /* font-size: 25px; */
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Index Down Button */
