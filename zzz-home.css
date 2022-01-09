@@ -4,6 +4,16 @@
     width: 95%;
 }
 
+/* View Projects */
+.view-projects {
+    font-weight: 600;
+    color: #303030;
+}
+
+.view-projects:hover {
+    color: #6945D0
+}
+
 /* Projects Section */
 .projects-section {
     background-color: red;
@@ -71,6 +81,7 @@ img {
 
 /* Index Intro */
 .index-intro {
+    text-align: center;
     margin-top: -55px;
     padding-top: 50px;
     padding-bottom: 80px;
