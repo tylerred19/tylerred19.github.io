@@ -4,6 +4,16 @@
     width: 95%;
 }
 
+/* Intro Background */
+.intro-background {
+    background-image: url("images/photography/026.jpg");
+    padding-top: 65px;
+    padding-bottom: 95px;
+    /* padding-left: 35%;
+    padding-right: 35%; */
+}
+
+
 /* View Projects */
 .view-projects button {
     margin-top: 25px;
@@ -89,11 +99,15 @@ img {
 
 /* Index Intro */
 .index-intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding-top: 65px;
-    padding-bottom: 95px;
-    padding-left: 35%;
-    padding-right: 35%;
+    background-color: #ffffff;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .index-intro-1 {
