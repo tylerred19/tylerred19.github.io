@@ -10,7 +10,7 @@
 }
 
 body {
-    color: black;
+    color: #303030;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -118,7 +118,7 @@ h1 {
 nav {
     text-decoration: none;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #232323;
     height: 60px;
     width: 100%;
     position: fixed;
