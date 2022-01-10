@@ -15,10 +15,6 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-family: 'Righteous', cursive;
-}
-
 /* Container */
 .container {
     /* display: grid;
@@ -28,11 +24,6 @@ h1 {
     z-index: 1;
     top: 0;
     width: 100%;
-}
-
-/* Nav Section */
-.nav-section {
-    font-family: 'Righteous', cursive;
 }
 
 /* Nav Margin */
@@ -124,32 +115,32 @@ nav {
     position: fixed;
     z-index: 1;
     top: 0;
-    width: 100%;
 }
 
 label.logo a {
     color: white;
-    font-size: 30px;
+    font-size: 21px;
     line-height: 60px;
-    padding: 0 45px;
+    margin-left: 10%;
+    padding: 0;
     font-weight: bold;
 }
 
 nav ul {
     float: right;
-    margin-right: 25px;
+    margin-right: 10%;
 }
 
 nav ul li {
     display: inline-block;
     line-height: 30px;
-    margin: 0 5px;
+    margin: 0;
 }
 
 nav ul li a {
     color: white;
-    font-size: 20px;
-    padding: 7px 13px;
+    font-size: 17px;
+    padding-left: 50px;
 }
 
 nav ul li a:hover, label.logo a:hover {
@@ -171,13 +162,16 @@ nav ul li a:hover, label.logo a:hover {
     display: none;
 }
 
-@media (max-width: 952px) {
+/* @media (max-width: 952px) {
     label.logo a {
-        padding-left: 5vw;
+        margin-left: 5vw;
     }
-}
+} */
 
 @media (max-width: 858px) {
+    label.logo a {
+        margin-left: 5vw;
+    }
     .checkbtn {
         display: block;
     }
@@ -196,7 +190,9 @@ nav ul li a:hover, label.logo a:hover {
     }
     nav ul li {
         display: block;
-        margin: 50px 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 7.5%;
         line-height: 30px;
     }
     a:hover {
