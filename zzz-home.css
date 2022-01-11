@@ -108,3 +108,10 @@
 .tyler-footer {
     margin: 2%;
 }
+
+/* Responsive For Cards */
+@media (max-width: 858px) {
+    .project-columns {
+        grid-template-columns: 1fr;
+    }
+}
