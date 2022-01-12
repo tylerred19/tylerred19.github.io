@@ -90,6 +90,21 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.tyler-footer-icons {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.tyler-footer-icons a {
+    color: white;
+}
+.tyler-footer-icons a:hover{
+    color: #D0BCFE;
+}
 .tyler-contact-icons b {
     margin-left: 10px;
     margin-right: 10px;
