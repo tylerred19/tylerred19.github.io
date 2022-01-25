@@ -40,12 +40,12 @@ i:hover {
 }
 
 .about-me {
-    float: left;
+    float: right;
     width: 50%;
 }
 
 .about-pic-wrapper {
-    float: right;
+    float: left;
     width: 50%;
 }
 
@@ -65,10 +65,11 @@ i:hover {
         width: 100%;
     }
     .about-pic-wrapper {
+        margin-top: 35px;
         width: 100%;
     }
     .about-pic-wrapper img {
-        width: 100%;
+        /* width: 100%; */
         height: auto;
         padding: 0;
     }
