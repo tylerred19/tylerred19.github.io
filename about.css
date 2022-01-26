@@ -42,6 +42,7 @@ i:hover {
 .about-me {
     float: right;
     width: 50%;
+    margin-top: 10px;
 }
 
 .about-pic-wrapper {
@@ -62,6 +63,7 @@ i:hover {
         display: inline;
     }
     .about-me {
+        margin-top: -5px;
         width: 100%;
     }
     .about-pic-wrapper {
