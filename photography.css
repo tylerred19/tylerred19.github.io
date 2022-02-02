@@ -7,20 +7,24 @@ html, body {
 
 img {
     text-align: center;
-    max-width: 90%;
-    margin: 2%;
+    max-width: 100%;
+    margin-bottom: 20px;
     height: auto;
     width: auto;
 }
 
 .three-columns {
-    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
     grid-template-columns: repeat(3, auto);
+    grid-column-gap: 40px;
 }
 
 @media screen and (max-width: 600px) {
     .three-columns {
         grid-template-columns: repeat(1, auto);
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
