@@ -1,18 +1,41 @@
-/* Others Padding Center Style */
-.other-center-style {
-    padding: 13%;
+/* Others Intro */
+.others-intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px 30px 30px 30px;
+}
+.others-intro-1 {
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    margin-bottom: -10px;
 }
 
-@media screen and (max-width: 600px) {
-    .other-center-style {
-        padding: 0 0;
+/* Others Project Columns */
+.others-project-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-column-gap: 40px;
+    row-gap: 40px;
+}
+
+/* Responsive For Cards */
+@media (max-width: 858px) {
+    .others-project-columns {
+        grid-template-columns: 1fr;
     }
-    .other-center-style h1 {
-        margin-top: 0px;
-        margin-bottom: -5px;
-    }
-    .other-center-style {
-        margin-left: 12px;
-        margin-right: 12px;
+}
+
+@media (max-width: 555px) {
+    .others-intro {
+        width: 90%
     }
 }
