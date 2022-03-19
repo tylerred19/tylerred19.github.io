@@ -4,9 +4,13 @@ h1 {
 }
 
 
-.domino-title {
-    color: #DF1D3C;
-    text-align: center;
+a {
+    color: #FC6F24;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Persona Sections */

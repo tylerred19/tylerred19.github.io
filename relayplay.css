@@ -3,12 +3,6 @@ h1 {
     color: #3D59AB;
 }
 
-
-.domino-title {
-    color: #DF1D3C;
-    text-align: center;
-}
-
 /* Persona Sections */
 .persona-two-columns {
     display: grid;
