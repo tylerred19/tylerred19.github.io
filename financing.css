@@ -14,7 +14,7 @@ a:hover {
 }
 
 /* Two Columns */
-.kumi-two-columns {
+.financing-two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -22,10 +22,10 @@ a:hover {
 }
 
 /* Research Stat Margins */
-.kumi-div-stat {
+.financing-div-stat {
     margin-top: -90px;
 }
-.kumi-p-stat {
+.financing-p-stat {
     font-size: 80px;
     margin-bottom: -10px;
 }
@@ -122,13 +122,13 @@ h1 {
     .persona-two-columns-alt {
         grid-template-columns: 1fr;
     }
-    .kumi-two-columns {
+    .financing-two-columns {
         grid-template-columns: 1fr;
     }
-    #kumi-div-top {
+    #financing-div-top {
         margin-bottom: -50px;
     }
-    #kumi-div-top-2 {
+    #financing-div-top-2 {
         margin-bottom: -75px;
     }
 }
