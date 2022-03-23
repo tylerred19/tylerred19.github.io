@@ -1,6 +1,6 @@
 /* Title and Headers */
 h1 {
-    color: #3D59AB;
+    color: #2D2D4A;
 }
 
 
@@ -32,7 +32,7 @@ a:hover {
 
 /* Blue Div */
 .blue-div {
-    background-color: #3D59AB;
+    background-color: #2D2D4A;
     color: white;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 }
 
 .quote-div-blue {
-    background-color: #3D59AB;
+    background-color: #2D2D4A;
     color: white;
     font-size: 25px;
     font-weight: bold;
