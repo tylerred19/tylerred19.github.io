@@ -48,6 +48,13 @@ a:hover {
     font-weight: bold;
 }
 
+.quote-div-blue {
+    background-color: #3D59AB;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .quote-div a {
     color: white;
 }
