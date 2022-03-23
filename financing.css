@@ -30,6 +30,34 @@ a:hover {
     margin-bottom: -10px;
 }
 
+/* Blue Div */
+.blue-div {
+    background-color: #3D59AB;
+    color: white;
+}
+
+.blue-div a {
+    color: white;
+}
+
+/* Quote Div */
+.quote-div {
+    background-color: #FC6F24;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.quote-div a {
+    color: white;
+}
+
+/* Quote Margin */
+.quote-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* Persona Sections */
 .persona-two-columns {
     display: grid;
