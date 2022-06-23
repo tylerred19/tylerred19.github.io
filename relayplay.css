@@ -46,6 +46,20 @@ h1 {
     width: 65%;
 }
 
+/* Quote Div */
+.quote-div-blue {
+    background-color: #3D59AB;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Quote Padding */
+.quote-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* Domino Image - Temporary */
 img {
     display: block;
