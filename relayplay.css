@@ -3,6 +3,13 @@ h1 {
     color: #3D59AB;
 }
 
+/* Problem Section */
+.problem-two-columns {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    column-gap: 5%;
+}
+
 /* Persona Sections */
 .persona-two-columns {
     display: grid;
@@ -94,12 +101,12 @@ h1 {
     margin-left: 3vw;
 }
 
-/* Domino Responsive */
+/* RelayPlay Responsive */
 @media screen and (max-width: 900px) {
-    /* .two-sketches {
-        grid-template-columns: 1fr;
-    } */
     .persona-two-columns {
+        grid-template-columns: 1fr;
+    }
+    .problem-two-columns {
         grid-template-columns: 1fr;
     }
     .persona-pic {
