@@ -101,6 +101,18 @@ h1 {
     margin-left: 3vw;
 }
 
+/* Hi-fi Two Columns */
+.hifi-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Hi-fi Image */
+.hifi-image {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 /* RelayPlay Responsive */
 @media screen and (max-width: 900px) {
     .persona-two-columns {
