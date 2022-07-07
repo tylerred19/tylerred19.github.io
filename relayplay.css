@@ -113,6 +113,29 @@ h1 {
     margin-right: 25%;
 }
 
+/* Div Blue */
+.div-blue {
+    background-color: #3D59AB;
+    color: white;
+}
+
+/* Two Columns */
+.testing-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-gap: 50px;
+}
+
+/* Research Stat Margins */
+.testing-div-stat {
+    margin-top: -90px;
+}
+.testing-p-stat {
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+
 /* RelayPlay Responsive */
 @media screen and (max-width: 900px) {
     .persona-two-columns {
@@ -137,5 +160,11 @@ h1 {
     }
     .persona-two-columns-alt {
         grid-template-columns: 1fr;
+    }
+    .testing-two-columns {
+        grid-template-columns: 1fr;
+    }
+    #testing-div-top {
+        margin-bottom: -50px;
     }
 }
