@@ -48,6 +48,14 @@ a:hover {
     font-weight: bold;
 }
 
+.quote-div-interview {
+    background-color: #FC6F24;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
 .quote-div-blue {
     background-color: #2D2D4A;
     color: white;
