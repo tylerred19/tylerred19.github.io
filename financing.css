@@ -140,7 +140,13 @@ h1 {
     margin-left: 3vw;
 }
 
-/* Domino Responsive */
+/* Financing Sketches */
+.financing-sketches {
+    margin-top: 2vw;
+    padding: 5%;
+}
+
+/* Financing Responsive */
 @media screen and (max-width: 900px) {
     /* .two-sketches {
         grid-template-columns: 1fr;
