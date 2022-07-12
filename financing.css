@@ -51,7 +51,6 @@ a:hover {
 .quote-div-interview {
     background-color: #FC6F24;
     color: white;
-    font-size: 22px;
     font-weight: 500;
 }
 
@@ -69,8 +68,20 @@ a:hover {
 
 /* Quote Padding */
 .quote-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Quote Content */
+.quote-content {
+    font-style: italic;
+    font-size: 22px;
+}
+
+/* Quote Name */
+.quote-name {
+    text-align: right;
+    font-size: 18px;
 }
 
 /* Persona Sections */
