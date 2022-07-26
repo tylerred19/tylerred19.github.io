@@ -114,6 +114,12 @@ body {
         margin-top: 7px;
         margin-bottom: -15px;
     }
+    .project-container {
+        margin-bottom: 35px;
+    }
+    .container-last {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 555px) {
