@@ -6,25 +6,21 @@
     padding-bottom: 95px;
 }
 
-/* View Projects */
-.view-projects button {
-    margin-top: 25px;
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: white;
-    color: #444444;
+body {
+    background-color: #202327;
+    color: #F6F5F1;
 }
 
-.view-projects button:hover {
-    color: #D0BCFE;
+/* View Projects */
+.view-projects {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* Projects Section */
 .projects-section-filler {
-    background-color: white;
-    color: white;
+    background-color: #202327;
+    color: #202327;
     padding-top: 10px;
 }
 
@@ -52,7 +48,7 @@
     width: 100%;
 }
 .card img {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .card img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -67,23 +63,18 @@
     text-align: center;
     margin: auto;
 }
+.project-container h3 {
+    font-size: 37px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    color: #A16660;
+    font-family: 'Koulen', cursive;
+}
 .project-type {
     font-family: 'Righteous', cursive;
     font-size: 16px;
-    color: #9C9893;
+    color: #88847A;
     font-weight: lighter;
-}
-.project-container h3 {
-    font-size: 30px;
-}
-
-/* Home Link */
-.home-link {
-    color: #444444;
-    text-decoration: none;
-}
-.home-link:hover {
-    color: #DADADA;
 }
 
 /* Index Intro */
@@ -102,7 +93,7 @@
 }
 .index-intro-1 {
     font-size: 45px;
-    margin-bottom: -10px;
+    font-family: 'Koulen', cursive;
 }
 
 /* Footer for Index Page */

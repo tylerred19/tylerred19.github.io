@@ -75,14 +75,14 @@ body {
 }
 
 .box-footer:hover {
-    background-color: #D0BCFE;
+    background-color: #865550;
     color: black;
     text-decoration: none;
 }
 
 /* Tyler Footer */
 .tyler-footer {
-    background-color: #181818;
+    background-color: #4E2C4B;
     color: white;
     font-family: 'Righteous', cursive;
     font-weight: lighter;
@@ -105,7 +105,7 @@ body {
     color: white;
 }
 .tyler-footer-icons a:hover{
-    color: #D0BCFE;
+    color: #865550;
 }
 .tyler-contact-icons b {
     margin-left: 10px;
@@ -130,26 +130,27 @@ body {
 nav {
     text-decoration: none;
     box-sizing: border-box;
-    background-color: #181818;
+    background-color: #202327;
     height: 60px;
     width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
+    font-family: 'Koulen', cursive;
 }
 
 label.logo a {
     color: white;
-    font-size: 21px;
+    font-size: 26px;
     line-height: 60px;
-    margin-left: 10%;
+    margin-left: 15vw;
     padding: 0;
     font-weight: bold;
 }
 
 nav ul {
     float: right;
-    margin-right: 10%;
+    margin-right: 15vw;
 }
 
 nav ul li {
@@ -160,12 +161,12 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    font-size: 17px;
+    font-size: 21px;
     padding-left: 50px;
 }
 
 nav ul li a:hover, label.logo a:hover {
-    color: #D0BCFE;
+    color: #865550;
 }
 
 .checkbtn {
@@ -196,7 +197,7 @@ nav ul li a:hover, label.logo a:hover {
         display: block;
     }
     .checkbtn:hover {
-        color: #D0BCFE;
+        color: #865550;
     }
     ul {
         position: fixed;
@@ -217,7 +218,7 @@ nav ul li a:hover, label.logo a:hover {
     }
     a:hover {
         background: none;
-        color: #D0BCFE;
+        color: #865550;
     }
     #check:checked ~ ul {
         left: 0;
