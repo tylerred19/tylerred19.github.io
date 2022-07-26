@@ -103,8 +103,16 @@ body {
 
 /* Responsive For Cards */
 @media (max-width: 858px) {
-    .project-columns .project-columns-2 {
+    .project-columns, .project-columns-2 {
         grid-template-columns: 1fr;
+    }
+    .card-2 {
+        grid-row-start: 0;
+        grid-row-end: 1;
+    }
+    .project-container h3 {
+        margin-top: 7px;
+        margin-bottom: -15px;
     }
 }
 
