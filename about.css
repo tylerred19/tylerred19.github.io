@@ -1,8 +1,12 @@
 /* About Page */
 
+/* About Top */
+.about-top {
+    margin-top: 150px;
+}
+
 /* About Wrapper */
 .about-wrapper {
-    margin-top: 150px;
     margin-left: 15vw;
     margin-right: 15vw;
 }
@@ -51,11 +55,9 @@
     text-decoration: underline;
 }
 
-/* OLD About Margin - GET RID LATER!!! */
-.about-margin {
-    margin-top: 100px;
-    margin-left: 15vw;
-    margin-right: 15vw;
+/* About Photography */
+.about-photography {
+    width: 100%;
 }
 
 .two-columns-wrapper {
