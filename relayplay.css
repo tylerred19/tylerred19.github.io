@@ -137,6 +137,13 @@ h1 {
     margin-bottom: -10px;
 }
 
+/* Events BNA */
+.events-bna, .how-to-bna {
+    background-color: #151515;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* RelayPlay Responsive */
 @media screen and (max-width: 900px) {
     .persona-two-columns {
