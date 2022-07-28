@@ -57,8 +57,9 @@ h1 {
 .quote-div-blue {
     background-color: #3D59AB;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: 'Koulen', cursive;
 }
 
 /* Quote Padding */
@@ -88,7 +89,7 @@ h1 {
 
 /* RelayPlay Link */
 .relayplay-link {
-    color: #3D59AB;
+    color: #667FC2;
     text-decoration: none;
 }
 .relayplay-link:hover {
