@@ -21,6 +21,12 @@
     margin-bottom: -10px;
 }
 
+/* Others Wrapper */
+.others-wrapper {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
 /* Others Project Columns */
 .others-project-columns {
     display: grid;
