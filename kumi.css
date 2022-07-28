@@ -1,3 +1,9 @@
+/* Title */
+.title {
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+}
+
 /* Images */
 img {
     display: block;
@@ -44,7 +50,7 @@ iframe {
 
 /* Kumi Link */
 .kumi-link {
-    color: black;
+    color: #DEF2D3;
     text-decoration: none;
 }
 .kumi-link:hover {
