@@ -98,9 +98,11 @@
     border-radius: 30px 30px 30px 30px;
 }
 .index-intro-1 {
-    font-size: 45px;
-    margin-bottom: -15px;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 0;
     font-family: 'Koulen', cursive;
+    line-height: 55px;
 }
 
 /* Footer for Index Page */

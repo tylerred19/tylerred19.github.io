@@ -16,6 +16,18 @@ body {
     margin: 0;
 }
 
+/* Color Selection */
+
+::selection {
+    background: #A16660;
+    color: #202327;
+}
+
+::-moz-selection {
+    background: #A16660;
+    color: #202327;
+}
+
 /* Container */
 .container {
     /* display: grid;
