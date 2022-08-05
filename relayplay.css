@@ -105,12 +105,12 @@ h1 {
 /* Hi-fi Two Columns */
 .hifi-two-columns {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
 }
 
 /* Hi-fi Image */
 .hifi-image {
-    margin-left: 25%;
+    /* margin-left: 25%; */
     margin-right: 25%;
 }
 
@@ -135,6 +135,18 @@ h1 {
 .testing-p-stat {
     font-size: 80px;
     margin-bottom: -10px;
+}
+
+/* Prototype Description */
+.proto-description {
+    margin: auto;
+}
+
+/* Prototype Description h3 */
+.proto-description h3 {
+    color: #667FC2;
+    font-size: 26px;
+    line-height: 15px;
 }
 
 /* Events BNA */
