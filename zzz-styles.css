@@ -19,12 +19,12 @@ body {
 /* Color Selection */
 
 ::selection {
-    background: #E3B869;
+    background: #E0AA58;
     color: #202327;
 }
 
 ::-moz-selection {
-    background: #E3B869;
+    background: #E0AA58;
     color: #202327;
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .box-footer:hover {
-    background-color: #865550;
+    background-color: #E0AA58;
     color: black;
     text-decoration: none;
 }
@@ -118,7 +118,7 @@ body {
     color: white;
 }
 .tyler-footer-icons a:hover{
-    color: #865550;
+    color: #E0AA58;
 }
 .tyler-contact-icons b {
     margin-left: 10px;
@@ -143,7 +143,7 @@ body {
 nav {
     text-decoration: none;
     box-sizing: border-box;
-    background-color: #191919;
+    background-color: #111111;
     height: 60px;
     width: 100%;
     position: fixed;
@@ -179,7 +179,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, label.logo a:hover {
-    color: #E3B869;
+    color: #E0AA58;
 }
 
 .checkbtn {
@@ -210,13 +210,13 @@ nav ul li a:hover, label.logo a:hover {
         display: block;
     }
     .checkbtn:hover {
-        color: #865550;
+        color: #E0AA58;
     }
     ul {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #101010;
+        background: #111111;
         top: 44px;
         left: -100%;
         text-align: center;
@@ -231,7 +231,7 @@ nav ul li a:hover, label.logo a:hover {
     }
     a:hover {
         background: none;
-        color: #865550;
+        color: #E0AA58;
     }
     #check:checked ~ ul {
         left: 0;
