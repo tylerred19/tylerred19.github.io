@@ -15,7 +15,7 @@
 .about-title {
     font-size: 40px;
     font-family: 'Koulen', cursive;
-    color: #A16660;
+    color: #E0AA58;
     margin-top: 80px;
     margin-bottom: -15px;
 }
@@ -39,7 +39,7 @@
     margin-right: 15px;
 }
 .about-link a:hover {
-    background-color: #A16660;
+    background-color: #E0AA58;
     color: #303030;
 }
 .about-link i:hover {
@@ -49,7 +49,7 @@
 /* About Text Link */
 .about-text-link {
     font-weight: 700;
-    color: #A16660;
+    color: #E0AA58;
 }
 .about-text-link:hover {
     text-decoration: underline;
