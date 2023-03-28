@@ -24,8 +24,8 @@
 
 /* Projects Section */
 .projects-section-filler {
-    background-color: #202327;
-    color: #202327;
+    background-color: #191919;
+    color: #191919;
     padding-top: 10px;
 }
 
@@ -72,7 +72,7 @@
     font-size: 37px;
     margin-top: -10px;
     margin-bottom: -5px;
-    color: #A16660;
+    color: #E3B869;
     font-family: 'Koulen', cursive;
     line-height: 45px;
 }
