@@ -102,11 +102,11 @@
     border-radius: 30px 30px 30px 30px;
 }
 .index-intro-1 {
-    font-size: 48px;
+    font-size: 160px;
     margin-top: 50px;
     margin-bottom: 0;
     font-family: 'Koulen', cursive;
-    line-height: 55px;
+    line-height: 150px;
 }
 
 /* Footer for Index Page */
@@ -132,6 +132,10 @@
     }
     .container-last {
         margin-bottom: 0;
+    }
+    .index-intro-1 {
+        font-size: 48px;
+        line-height: 55px;
     }
 }
 
