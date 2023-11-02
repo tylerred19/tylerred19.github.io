@@ -1,17 +1,17 @@
 /* Title Div */
 .title-div {
-    background-color: #CCD7E5;
+    background-color: #2D2D4A;
     margin-top: 4vw;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: #111111;
+    /* color: #111111; */
 }
 .searf-title-header {
     font-family: 'Koulen', cursive;
     margin-bottom: -2px;
     font-size: 40px;
     line-height: 50px;
-    color: #00367C;
+    /* color: #111111; */
     font-weight: lighter;
 }
 .searf-title-description {
@@ -62,4 +62,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+/* Purple Div */
+.purple-div {
+    background-color: #2D2D4A;
 }
