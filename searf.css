@@ -1,3 +1,24 @@
+/* Title Div */
+.title-div {
+    background-color: #CCD7E5;
+    margin-top: 4vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #111111;
+}
+.searf-title-header {
+    font-family: 'Koulen', cursive;
+    margin-bottom: -2px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #00367C;
+    font-weight: lighter;
+}
+.searf-title-description {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /* Header */
 .searf-header {
     margin-top: 100px;
@@ -27,7 +48,12 @@
 .searf-two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 100px;
+}
+.image-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 
 /* Images */
