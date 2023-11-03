@@ -12,7 +12,8 @@
 body {
     background-color: #111111;
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
     margin: 0;
 }
 

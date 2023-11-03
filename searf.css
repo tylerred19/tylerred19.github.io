@@ -1,3 +1,8 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
 /* Title Div */
 .title-div {
     background-color: #2D2D4A;
@@ -29,7 +34,7 @@
     font-weight: lighter;
 }
 .searf-header-2 {
-    margin-top: 100px;
+    margin-top: 0;
     margin-bottom: -20px;
     font-family: 'Righteous', cursive;
     font-size: 16px;
@@ -43,6 +48,15 @@
     color: #00F5FA;
     font-weight: lighter;
 }
+.searf-header-4 {
+    margin-top: 100px;
+    margin-bottom: -20px;
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+    color: #808DAD;
+    font-weight: lighter;
+}
+
 
 /* Two Columns */
 .searf-two-columns {
@@ -67,4 +81,7 @@ img {
 /* Purple Div */
 .purple-div {
     background-color: #2D2D4A;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
