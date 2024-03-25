@@ -7,13 +7,14 @@
 }
 
 /* Pupil Link */
-.tyme-link a {
+.dev-project-link a {
     font-weight: 700;
-    color: #FFDD00;
+    color: #E0AA58;
 }
-.tyme-link a:hover {
+.dev-project-link a:hover {
     text-decoration: underline;
-    color: #00F5FA;
+    background-color: #E0AA58;
+    color: #111111;
 }
 
 /* View Projects */
