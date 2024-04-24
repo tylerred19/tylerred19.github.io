@@ -89,3 +89,19 @@ img {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+/* Capstone Link */
+.capstone-link a {
+    font-weight: 700;
+    color: #00F5FA;
+}
+.capstone-link a:hover {
+    text-decoration: underline;
+    background-color: #E0AA58;
+    color: #111111;
+}
+
+/* Content Margin */
+.content-margin {
+    margin-left: 2vw;
+}
